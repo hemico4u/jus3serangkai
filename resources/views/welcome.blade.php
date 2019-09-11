@@ -127,46 +127,46 @@
             </div>
         </div>
         <div class="row">
-            <div class="span3">
+            <div class="span4">
                 <div class="well box aligncenter">
                     <img src="{{ asset('img/penyakit-jantung.jpg')}}" alt="" style="height:200px; width:200px">
                     <h3>PENYAKIT JANTUNG KORONARI</h3>
                     <p>
-                        Lorem ipsum dolor sit amet, eum no latine delectus deserunt diam
+                        <b>Tahukah anda PENYAKIT JANTUNG KORONARI kekal sebagai PUNCA UTAMA (36%) KEMATIAN rakyat Malaysia sekarang?</b>
                     </p>
-                    <a href="#" class="btn btn-color">Learn more</a>
+                    <a href="#" class="btn btn-color">Baca Sekarang</a>
                 </div>
             </div>
-            <div class="span3">
+            <div class="span4">
                 <div class="well box aligncenter">
                     <img src="{{ asset('img/tekanan-darah-tinggi.jpg')}}" alt="" style="height:200px; width:200px">
                     <h3>TEKANAN DARAH TINGGI</h3>
                     <p>
-                        Lorem ipsum dolor sit amet, eum no latine delectus deserunt diam
+                        <b>Tahukah anda 1 DARIPADA 3 RAKYAT MALAYSIA mengidap masalah TEKANAN DARAH TINGGI?</b>
                     </p>
-                    <a href="#" class="btn btn-color">Learn more</a>
+                    <a href="#" class="btn btn-color">Baca Sekarang</a>
                 </div>
             </div>
-            <div class="span3">
+            <div class="span4">
                 <div class="well box aligncenter">
                     <img src="{{ asset('img/kencing-manis.jpeg')}}" alt="" style="height:200px; width:200px">
                     <h3>KENCING MANIS</h3>
                     <p>
-                        Lorem ipsum dolor sit amet, eum no latine delectus deserunt diam
+                        <b>Tahukah anda seramai 3.6 JUTA RAKYAT MALAYSIA mengidap PENYAKIT KENCING MANIS?</b>
                     </p>
-                    <a href="#" class="btn btn-color">Learn more</a>
+                    <a href="#" class="btn btn-color">Baca Sekarang</a>
                 </div>
             </div>
-            <div class="span3">
-                <div class="well box aligncenter">
-                    <img src="{{ asset('img/3-serangkai-logo.png')}}" alt="" style="width:200px; background-color: black; padding: 5px">
-                    <h3>TENTANG KAMI</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, eum no latine delectus deserunt diam
-                    </p>
-                    <a href="#" class="btn btn-color">Learn more</a>
-                </div>
-            </div>
+            {{--<div class="span3">--}}
+                {{--<div class="well box aligncenter">--}}
+                    {{--<img src="{{ asset('img/3-serangkai-logo.png')}}" alt="" style="width:200px; background-color: black; padding: 5px">--}}
+                    {{--<h3>TENTANG KAMI</h3>--}}
+                    {{--<p>--}}
+                        {{--Lorem ipsum dolor sit amet, eum no latine delectus deserunt diam--}}
+                    {{--</p>--}}
+                    {{--<a href="#" class="btn btn-color">Learn more</a>--}}
+                {{--</div>--}}
+            {{--</div>--}}
         </div>
     </div>
 
@@ -202,25 +202,25 @@
             <div class="span12">
                 <div class="section-intro">
                     <p>
-                        <b>MAKANAN TERBAIK UNTUK PESAKIT JANTUNG KORONARI, TEKANAN DARAH TINGGI DAN KENCING MANIS.</b>
+                        <b>MAKANAN TERBAIK UNTUK MASALAH JANTUNG KORONARI, TEKANAN DARAH TINGGI DAN KENCING MANIS.</b>
                     </p>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="span12" style="background-color: #FFFFFF; padding: 20px">
-                <p>
-                    Tahukah anda Penyakit Jantung Koronari kekal sebagai punca utama (36%) kematian rakyat Malaysia sekarang?<br><br>
-
-                    Tahukah anda 1 daripada 3 rakyat Malaysia mengidap Penyakit Tekanan Darah Tinggi?<br><br>
-
-                    Tahukah anda seramai 3.6 juta rakyat Malaysia mengidap Penyakit Kencing Manis?<br><br>
-
-                    Penyakit Jantung Koronari, Tekanan Darah Tinggi dan Kencing Manis merupakan tiga penyakit paling membunuh di Malaysia.<br><br>
-
-                    Lebih menakutkan ketiga-tiga penyakit yang digelar sebagai Penyakit Tiga Serangkai ini saling berkait antara satu sama lain dan mula dihidap seawal usia 30-an.
-                </p>
-            <div class="dotted_line"></div>
+            <div class="span3" style="text-align: center"><img src="{{ asset('img/3-Serangkai-Jumbo.png') }}" alt="" style="height:33vw;"></div>
+            <div class="span8">
+                <div class="well box aligncenter" style="background-color: #dfdfdf; padding: 20px">
+                    <p>
+                        PENYAKIT JANTUNG KORONARI, TEKANAN DARAH TINGGI dan KENCING MANIS merupakan penyakit yang digelar sebagai PENYAKIT TIGA SERANGKAI!
+                    </p>
+                </div>
+                <br>
+                <div class="well box aligncenter" style="background-color: #dfdfdf; padding: 20px">
+                    <p>
+                        PENYAKIT TIGA SERANGKAI ini saling berkait antara satu sama lain dan LEBIH MENAKUTKAN ia ‘TIGA PENYAKIT PALING MEMBUNUH’ di MALAYSIA.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
@@ -378,7 +378,7 @@
                         <div class="social-links">
                             <ul class="social-links">
                                 <li><a href="#" title="Twitter"><i class="icon-circled icon-64 icon-twitter"></i></a></li>
-                                <li><a href="#" title="Facebook"><i class="icon-circled icon-64 icon-facebook"></i></a></li>
+                                <li><a href="https://www.facebook.com/tigaserangkaihemico/" title="Facebook"><i class="icon-circled icon-64 icon-facebook"></i></a></li>
                             </ul>
 
                         </div>
