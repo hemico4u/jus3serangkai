@@ -58,6 +58,17 @@ class UserController extends Controller
         return view('info')->with('info', $check);
     }
 
+    public function repair($user)
+    {
+
+        $check = User::where('username', $user)->first();
+
+        if (!isset($check)){
+            return Redirect::to('/');
+        }
+        return view('repair')->with('info', $check);
+    }
+
     /**
      * Show the form for creating a new resource.
      *

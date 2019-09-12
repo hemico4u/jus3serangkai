@@ -42,8 +42,8 @@
                         <ul class="nav pull-right">
                             <li class="current"><a href="#featured">Halaman</a></li>
                             <li><a href="#about">Penyakit</a></li>
-                            <li><a href="#services">Penyelesaian</a></li>
-                            <li><a href="#works">Kebaikan</a></li>
+                            <li><a href="#works">Penyelesaian</a></li>
+                            <li><a href="#khasiat">Kebaikan</a></li>
                             <li><a href="#contact">Hubungi</a></li>
                             @if(isset($number))
                                 <li><a href="/info/{{$number->username}}">Info Agen</a></li>
@@ -134,7 +134,7 @@
                     <p>
                         <b>Tahukah anda PENYAKIT JANTUNG KORONARI kekal sebagai PUNCA UTAMA (36%) KEMATIAN rakyat Malaysia sekarang?</b>
                     </p>
-                    <a href="#" class="btn btn-color">Baca Sekarang</a>
+                    {{--<a href="#" class="btn btn-color">Baca Sekarang</a>--}}
                 </div>
             </div>
             <div class="span4">
@@ -144,7 +144,7 @@
                     <p>
                         <b>Tahukah anda 1 DARIPADA 3 RAKYAT MALAYSIA mengidap masalah TEKANAN DARAH TINGGI?</b>
                     </p>
-                    <a href="#" class="btn btn-color">Baca Sekarang</a>
+                    {{--<a href="#" class="btn btn-color">Baca Sekarang</a>--}}
                 </div>
             </div>
             <div class="span4">
@@ -154,7 +154,7 @@
                     <p>
                         <b>Tahukah anda seramai 3.6 JUTA RAKYAT MALAYSIA mengidap PENYAKIT KENCING MANIS?</b>
                     </p>
-                    <a href="#" class="btn btn-color">Baca Sekarang</a>
+                    {{--<a href="#" class="btn btn-color">Baca Sekarang</a>--}}
                 </div>
             </div>
             {{--<div class="span3">--}}
@@ -401,10 +401,13 @@
             </div>
             <div class="span12">
                 <div class="section-end">
-                    <p><b>
-                        SEBAIKNYA, SEBELUM ANDA MENCUBA JUS 3 SERANGKAI NI, DAPATKAN KHIDMAT NASIHAT DARI KAMI UNTUK KAMI PASTIKAN KAMI DAPAT BANTU SELESAIKAN MASALAH ANDA DENGAN BERKESAN.<br><br>
+                    <p>
+                        SEBAIKNYA, SEBELUM ANDA MENCUBA JUS TIGA SERANGKAI NI, DAPATKAN KHIDMAT NASIHAT DARI KAMI UNTUK KAMI PASTIKAN KAMI DAPAT BANTU SELESAIKAN MASALAH ANDA DENGAN BERKESAN.<br><br>
 
-                            KAMI JUGA NAK TAWARKAN HARGA ISTIMEWA UNTUK ANDA!</b>
+                            <b>KAMI JUGA NAK TAWARKAN HARGA ISTIMEWA UNTUK ANDA!
+                                <br><br>
+                                KLIK GAMBAR DI BAWAH UNTUK TERUS WHATSAPP KAMI SEKARANG!
+                            </br>
 
                     </p>
                 </div>

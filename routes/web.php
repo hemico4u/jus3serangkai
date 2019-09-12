@@ -23,3 +23,8 @@ Route::get('jus3serangkai/{user}', 'UserController@index')->name('user');
 Route::get('register', 'UserController@register')->name('register');
 Route::post('submit', 'UserController@submit')->name('submit');
 Route::get('info/{user}', 'UserController@info')->name('info');
+
+
+Route::get('penyakit-jantung/{user}', 'UserController@repair')->name('repair');
+Route::get('darah-tinggi/{user}', 'UserController@repair')->name('repair');
+Route::get('kencing-manis/{user}', 'UserController@repair')->name('repair');
