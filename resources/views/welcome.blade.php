@@ -233,31 +233,31 @@
         <div class="row">
             <div class="span12">
                 <div class="headline">
-                    <h3><span>Kebaikan Jus Tiga Serangkai</span></h3>
+                    <h3><span><b>JUS TIGA SERANGKAI MENYELESAIKAN PENYAKIT TIGA SERANGKAI</b></span></h3>
                 </div>
             </div>
             <div class="span12">
                 <div class="section-intro">
                     <p>
-                        <b>JUS 3 SERANGKAI adalah minuman campuran 33 Herba Botani. Ia menggunakan Formula METABOLAID (MetA) dan Frukto Oligosakarida (FOS) yang pertama di Malaysia.
-                        </b></p>
+                        <b>JUS TIGA SERANGKAI ADALAH MINUMAN CAMPURAN 33 HERBA BOTANI DENGAN MENGGUNAKAN FORMULA METABOLAID (MetA) DAN FRUKTO OLIGOSAKARIDA (FOS) YANG PERTAMA DI MALAYSIA.</b>
+                    </p>
                 </div>
             </div>
             <div  class="span-12">
                 <br>
                 <p>
-                    Khasiat 33 Herba Botani dengan gabungan Formula METABOLAID (MetA) dan Frukto Oligosakarida (FOS) telah terbukti boleh membantu menyelesaikan masalah Penyakit Tiga Serangkai (Penyakit Jantung Koronari, Tekanan Darah Tinggi dan Kencing Manis ) ini dengan :
+                    KHASIAT 33 HERBA BOTANI dengan gabungan FORMULA METABOLAID (MetA) dan FRUKTO OLIGOSAKARIDA (FOS) telah TERBUKTI boleh membantu MENYELESAIKAN masalah PENYAKIT TIGA SERANGKAI (Penyakit Jantung Koronari, Tekanan Darah Tinggi dan Kencing Manis) ini dengan :
                 </p>
                 <ul style="font-size: 18px;">
-                    <li style="margin: 20px;"><b>Tingkatkan Kesan Antiradang</b> – menghalang aktiviti keradangan kronik yang boleh merosakkan dan mematikan sel-sel.</li>
-                    <li style="margin: 20px;"><b>Tingkatkan Kesan Antioksidan</b> – merencatkan aktiviti radikal bebas dalam badan.</li>
-                    <li style="margin: 20px;"><b>Tingkatkan Metabolisme </b>– meningkatkan pembakaran lemak berlebihan dalam badan dengan lebih baik.</li>
-                    <li style="margin: 20px;"><b>Turunkan Paras Kolesterol Jahat</b> – menurunkan kolesterol jahat LDL yang membentuk plak kolesterol dengan meningkatkan kolesterol baik HDL dalam saluran darah.</li>
-                    <li style="margin: 20px;"><b>Turunkan Paras Gula</b> – menurunkan paras gula dalam darah supaya tidak berlaku keradangan kronik dalam saluran darah.</li>
-                    <li style="margin: 20px;"><b>Melancarkan Sistem Peredaran Darah</b> – membantu ritma denyutan jantung menjadi normal dan menganjalkan saluran darah supaya paras tekanan darah menjadi normal.</li>
-                    <li style="margin: 20px;"><b>Menyelaras Sistem Imun</b> – membantu supaya Sistem Imun menjadi normal (tidak terlalu rendah dan tidak menjadi agresif). Sistem Imun yang agresif akan berlaku autoimun yang boleh merosakkan dan mematikan sel-sel.</li>
-                    <li style="margin: 20px;"><b>Tingkatkan Penyerapan Kalsium</b> – membantu memelihara ketumpatan jisim tulang.</li>
-                    <li style="margin: 20px;"><b>Prebiotik Yang Baik</b> – membantu penghasilan dan keseimbangan bakteria baik dalam usus.</li>
+                    <li style="margin: 20px;"><p><b>TINGKATKAN KESAN ANTIRADANG </b> – menghalang keradangan kronik yang merosakkan dinding saluran darah hingga menyebabkan kolesterol jahat (LDL) melekat padanya untuk membentuk plak kolesterol seterusnya menyempitkan saluran darah dan meningkatkan tekanan darah tinggi. Ia juga dapat melindungi reseptor insulin daripada keradangan kronik supaya dapat menggunakan insulin untuk menurunkan paras gula dalam darah kepada paras yang normal.</p></li>
+                    <li style="margin: 20px;"><p><b>TINGKATKAN KESAN ANTIOKSIDAN </b> – merencatkan aktiviti radikal bebas yang boleh merosakkan sel-sel saluran darah hingga menyebabkannya mengeras dan tidak anjal untuk mengembang dan menguncup supaya dapat mengawal paras tekanan darah menjadi normal. Salur darah yang tidak anjal boleh pecah akibat tekanan darah tinggi dan menyebabkan strok atau serangan jantung.</p></li>
+                    <li style="margin: 20px;"><p><b>TINGKATKAN METABOLISME</b> – meningkatkan pembakaran lemak berlebihan dalam badan dengan lebih baik kerana lemak berlebihan adalah toksin yang terkumpul dalam badan.</p></li>
+                    <li style="margin: 20px;"><p><b>TURUNKAN PARAS KOLESTEROL</b> – menurunkan kolesterol jahat (LDL) yang membentuk plak kolesterol dengan meningkatkan kolesterol baik (HDL) dalam saluran darah supaya saluran darah tidak menyempit hingga menyebabkan tekanan darah tinggi berlaku dan tidak menyekat bekalan oksigen ke otot-otot jantung dan otak hingga menyebabkan serangan jantung dan strok.</p></li>
+                    <li style="margin: 20px;"><p><b>TURUNKAN PARAS GULA  </b> – menurunkan paras gula dalam darah supaya tidak berlaku keradangan kronik dalam saluran darah yang akan merosakkan dinding saluran darah dan reseptor insulin serta tidak memaksa penghasilan insulin melebihi had yang menyebabkan pankreas kehilangan fungsi menghasilkan insulin yang mencukupi dalam jangka masa panjang.</p></li>
+                    <li style="margin: 20px;"><p><b>MELANCARKAN SISTEM PEREDARAN DARAH </b> – membantu ritma denyutan jantung menjadi normal dan menganjalkan saluran darah supaya paras tekanan darah menjadi normal.</p></li>
+                    <li style="margin: 20px;"><p><b>MENYELARAS SISTEM IMUN </b> – membantu supaya Sistem Imun menjadi normal (tidak terlalu rendah dan tidak menjadi agresif). Sistem Imun yang agresif akan berlaku autoimun yang akan merosakkan dan mematikan sel-sel pankreas hingga gagal menghasilkan insulin yang mencukupi untuk menurunkan paras gula dalam darah kepada paras yang normal.</p></li>
+                    <li style="margin: 20px;"><p><b>TINGKATKAN PENYERAPAN KALSIUM </b> – membantu memelihara ketumpatan jisim tulang.</p></li>
+                    <li style="margin: 20px;"><p><b>PREBIOTIK YANG BAIK </b> – membantu penghasilan dan keseimbangan bakteria baik dalam usus untuk meningkatkan kesihatan usus.</p></li>
                 </ul>
             </div>
 
@@ -272,60 +272,123 @@
 
                     Jarakkan masa setengah jam jika ada ambil ubat lain.<br><br>
 
-                    33 HERBA BOTANI adalah:<br>
+                    {{--33 HERBA BOTANI adalah:<br>--}}
                 </p>
             </div>
-            <div class="row">
-                <div class="span4">
-                    <p style="padding-left: 30px">
-                        <b>1.  Ekstrak Peria.</b><br><br>
-                        <b>2.  Bunga Raya.</b>(Formula METABOLAID (MetA))<br><br>
-                        <b>3.  Lemon Verbena.</b>(Formula METABOLAID (MetA))<br><br>
-                        <b>4.  Frukto Oligosakarida.</b><br><br>
-                        <b>5.	Serbuk Madu.</b><br><br>
-                        <b>6.	Serbuk Kurma.</b><br><br>
-                        <b>7.	Ekstrak Delima.</b><br><br>
-                        <b>8.	Serbuk Buah Tin.</b><br><br>
-                        <b>9.	Serbuk Zaitun.</b><br><br>
-                        <b>10.	Ekstrak Mengkudu.</b><br><br>
-                        <b>11.	Serbuk Saffron.</b><br><br>
-                    </p>
-                </div>
-                <div class="span4">
-                    <p style="padding-left: 30px">
-                        <b>12.	Ekstrak Goji.</b><br><br>
-                        <b>13.	Ekstrak Acai Berry.</b><br><br>
-                        <b>14.	Ekstrak Habbatussauda.</b><br><br>
-                        <b>15.	Ekstrak Gingko Biloba.</b><br><br>
-                        <b>16.	Ekstrak Kismis.</b><br><br>
-                        <b>17.	Ekstrak Belalai Gajah.</b><br><br>
-                        <b>18.	Ekstrak Panax Ginseng.</b><br><br>
-                        <b>19.	Ekstrak Anggur.</b><br><br>
-                        <b>20.	Ekstrak Sarang Burung.</b><br><br>
-                        <b>21.	Ekstrak Rozel.</b><br><br>
-                        <b>22.	Ekstrak Kiwi.</b><br><br>
-                    </p>
-                </div>
-                <div class="span4">
-                    <p style="padding-left: 30px">
-                        <b>23.	Ekstrak Asam Jawa.</b><br><br>
-                        <b>24.	Ekstrak Manggis.</b><br><br>
-                        <b>25.	Ekstrak Kunyit.</b><br><br>
-                        <b>26.	Ekstrak Halia Bara.</b><br><br>
-                        <b>27.	Ekstrak Temulawak.</b><br><br>
-                        <b>28.	Ekstrak Jintan Manis.</b><br><br>
-                        <b>29.	Ekstrak Camu-Camu.</b><br><br>
-                        <b>30.	Arabic Gum.</b><br><br>
-                        <b>31.	Ekstrak Buah Naga.</b><br><br>
-                        <b>32.	Ekstrak Pegaga.</b><br><br>
-                        <b>33.	Stevia.</b><br><br>
-                    </p>
-                </div>
-            </div>
+            {{--<div class="row">--}}
+                {{--<div class="span4">--}}
+                    {{--<p style="padding-left: 30px">--}}
+                        {{--<b>1.  Ekstrak Peria.</b><br><br>--}}
+                        {{--<b>2.  Bunga Raya.</b>(Formula METABOLAID (MetA))<br><br>--}}
+                        {{--<b>3.  Lemon Verbena.</b>(Formula METABOLAID (MetA))<br><br>--}}
+                        {{--<b>4.  Frukto Oligosakarida.</b><br><br>--}}
+                        {{--<b>5.	Serbuk Madu.</b><br><br>--}}
+                        {{--<b>6.	Serbuk Kurma.</b><br><br>--}}
+                        {{--<b>7.	Ekstrak Delima.</b><br><br>--}}
+                        {{--<b>8.	Serbuk Buah Tin.</b><br><br>--}}
+                        {{--<b>9.	Serbuk Zaitun.</b><br><br>--}}
+                        {{--<b>10.	Ekstrak Mengkudu.</b><br><br>--}}
+                        {{--<b>11.	Serbuk Saffron.</b><br><br>--}}
+                    {{--</p>--}}
+                {{--</div>--}}
+                {{--<div class="span4">--}}
+                    {{--<p style="padding-left: 30px">--}}
+                        {{--<b>12.	Ekstrak Goji.</b><br><br>--}}
+                        {{--<b>13.	Ekstrak Acai Berry.</b><br><br>--}}
+                        {{--<b>14.	Ekstrak Habbatussauda.</b><br><br>--}}
+                        {{--<b>15.	Ekstrak Gingko Biloba.</b><br><br>--}}
+                        {{--<b>16.	Ekstrak Kismis.</b><br><br>--}}
+                        {{--<b>17.	Ekstrak Belalai Gajah.</b><br><br>--}}
+                        {{--<b>18.	Ekstrak Panax Ginseng.</b><br><br>--}}
+                        {{--<b>19.	Ekstrak Anggur.</b><br><br>--}}
+                        {{--<b>20.	Ekstrak Sarang Burung.</b><br><br>--}}
+                        {{--<b>21.	Ekstrak Rozel.</b><br><br>--}}
+                        {{--<b>22.	Ekstrak Kiwi.</b><br><br>--}}
+                    {{--</p>--}}
+                {{--</div>--}}
+                {{--<div class="span4">--}}
+                    {{--<p style="padding-left: 30px">--}}
+                        {{--<b>23.	Ekstrak Asam Jawa.</b><br><br>--}}
+                        {{--<b>24.	Ekstrak Manggis.</b><br><br>--}}
+                        {{--<b>25.	Ekstrak Kunyit.</b><br><br>--}}
+                        {{--<b>26.	Ekstrak Halia Bara.</b><br><br>--}}
+                        {{--<b>27.	Ekstrak Temulawak.</b><br><br>--}}
+                        {{--<b>28.	Ekstrak Jintan Manis.</b><br><br>--}}
+                        {{--<b>29.	Ekstrak Camu-Camu.</b><br><br>--}}
+                        {{--<b>30.	Arabic Gum.</b><br><br>--}}
+                        {{--<b>31.	Ekstrak Buah Naga.</b><br><br>--}}
+                        {{--<b>32.	Ekstrak Pegaga.</b><br><br>--}}
+                        {{--<b>33.	Stevia.</b><br><br>--}}
+                    {{--</p>--}}
+                {{--</div>--}}
+            {{--</div>--}}
         </div>
     </div><hr>
 </section>
 <!-- section works -->
+
+<!-- section khasiat -->
+<section id="khasiat">
+    <div class="container">
+        <div class="row">
+            <div class="headline">
+                <img src="{{ asset('img/33herba.png')}}" >
+            </div>
+            <div class="span6">
+                <div class="headline">
+                    <img src="{{ asset('img/1.jpg')}}" >
+                </div>
+            </div>
+            <div class="span6">
+                <div class="headline">
+                    <img src="{{ asset('img/2.jpg')}}" >
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span6">
+                <div class="headline">
+                    <img src="{{ asset('img/3.jpg')}}" >
+                </div>
+            </div>
+            <div class="span6">
+                <div class="headline">
+                    <img src="{{ asset('img/4.jpg')}}" >
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- section halal -->
+<section id="halal" class="section parallax">
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+                <div class="headline">
+                    <h3><span>KELULUSAN DAN PERSIJILAN</span></h3>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="text-align: center;">
+            <div class="span3">
+                <img src="{{ asset('img/Logohalal.png')}}" alt="" style="height:200px; width:200px">
+            </div>
+            <div class="span3">
+                <img src="{{ asset('img/gmp.png')}}" alt="" style="height:200px; width:200px">
+            </div>
+            <div class="span3">
+                <img src="{{ asset('img/mesti.png')}}" alt="" style="height:200px; width:auto">
+            </div>
+            <div class="span3">
+                <img src="{{ asset('img/logobuatanmalaysia.png')}}" alt="" style="height:200px; width:auto">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end section halal -->
+
 
 <!-- section contact -->
 <section id="contact" class="section">

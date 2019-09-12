@@ -841,6 +841,41 @@ section#services {
 	margin-bottom:0;
 }
 
+/* ================= halal ============================ */
+section#halal {
+    /*background: #000 url(../img/bg/bg-1.jpg) 50% 0 no-repeat;*/
+    width:100%;
+    height:auto;
+    margin:0;
+    background-color: #f7eba3;
+}
+
+@media (min-width: 1024px) {
+    section#halal {
+        background-attachment: fixed;
+    }
+}
+
+#halal .headline h3 {
+    color: rgba(69, 69, 69, 0.83);
+}
+
+#halal .section-intro p {
+    color:rgba(69, 69, 69, 0.83);
+}
+
+.halal-intro{
+    width:100%;
+    margin:30px 0 30px 0;
+    padding-top:20px;
+    text-align:center;
+}
+
+.halal-intro h3{
+    font-size:64px;
+    margin-bottom:0;
+}
+
 /*========== works ==================*/
 
 ul.filter {
