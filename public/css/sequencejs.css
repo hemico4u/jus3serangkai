@@ -153,7 +153,7 @@
 #sequence-theme .lefttop {
   left: -100%;
   width: 100%;
-  top: 800px;
+  /*top: 800px;*/
   z-index: 6;
   -webkit-transition-property: left top;
   -moz-transition-property: left top;
@@ -163,10 +163,9 @@
 }
 #sequence-theme .animate-in .lefttop {
   left: 0%;
-  top: 100px;
+  top: 60px;
   text-align:center;
   margin:0 auto;
-  margin-top:30px;
   -webkit-transition-duration: 4s;
   -moz-transition-duration: 4s;
   -ms-transition-duration: 4s;

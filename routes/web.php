@@ -17,6 +17,15 @@ Route::get('/', function () {
 Route::get('/jus3serangkai', function () {
     return view('welcome');
 });
+Route::get('/penyakit-jantung', function () {
+    return view('jantung');
+});
+Route::get('/darah-tinggi', function () {
+    return view('darah');
+});
+Route::get('/kencing-manis', function () {
+    return view('kencing');
+});
 
 Route::get('jus3serangkai/{user}', 'UserController@index')->name('user');
 
@@ -25,6 +34,6 @@ Route::post('submit', 'UserController@submit')->name('submit');
 Route::get('info/{user}', 'UserController@info')->name('info');
 
 
-Route::get('penyakit-jantung/{user}', 'UserController@repair')->name('repair');
-Route::get('darah-tinggi/{user}', 'UserController@repair')->name('repair');
-Route::get('kencing-manis/{user}', 'UserController@repair')->name('repair');
+Route::get('penyakit-jantung/{user}', 'UserController@jantung')->name('jantung');
+Route::get('darah-tinggi/{user}', 'UserController@darah')->name('darah');
+Route::get('kencing-manis/{user}', 'UserController@kencing')->name('kencing');

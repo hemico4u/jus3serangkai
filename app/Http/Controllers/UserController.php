@@ -38,9 +38,6 @@ class UserController extends Controller
             'number_phone' => 'required|numeric|unique:users',
             'email' => 'required',
         ]);
-//        if (!$validatedData){dd('hah');
-//            return view('register')->with('msj', 'error');
-//        }
 
         User::create($request->all());
 
@@ -67,6 +64,39 @@ class UserController extends Controller
             return Redirect::to('/');
         }
         return view('repair')->with('info', $check);
+    }
+
+    public function darah($user)
+    {
+
+        $check = User::where('username', $user)->first();
+
+        if (!isset($check)){
+            return Redirect::to('/');
+        }
+        return view('darah')->with('number', $check);
+    }
+
+    public function jantung($user)
+    {
+
+        $check = User::where('username', $user)->first();
+
+        if (!isset($check)){
+            return Redirect::to('/');
+        }
+        return view('jantung')->with('number', $check);
+    }
+
+    public function kencing($user)
+    {
+
+        $check = User::where('username', $user)->first();
+
+        if (!isset($check)){
+            return Redirect::to('/');
+        }
+        return view('kencing')->with('number', $check);
     }
 
     /**

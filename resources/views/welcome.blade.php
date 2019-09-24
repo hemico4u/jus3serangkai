@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="my">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -35,7 +35,7 @@
         <div class="navbar-inner">
             <div class="container">
                 <div class="logo">
-                    <a class="brand" href="#"><img src="{{ asset('img/3-serangkai-logo.png')}}" alt="" style="width:100px"></a>
+                    <a class="brand" href="#"><img src="{{ asset('img/3-serangkai-logo.png')}}" alt="" style="width:80px; margin-bottom: 0px;"></a>
                 </div>
                 <div class="navigation">
                     <nav>
@@ -43,6 +43,7 @@
                             <li class="current"><a href="#featured">Halaman</a></li>
                             <li><a href="#about">Penyakit</a></li>
                             <li><a href="#works">Penyelesaian</a></li>
+                            <li><a href="#manfaat">Manfaat</a></li>
                             <li><a href="#khasiat">Kebaikan</a></li>
                             <li><a href="#contact">Hubungi</a></li>
                             @if(isset($number))
@@ -77,33 +78,33 @@
                 <div class="span12">
                     <div id="sequence">
                         <ul>
-                            <li class="animate-in">
-                                <div class="info letter-container">
-                                    <h2 class="fade">Jus Tiga Serangkai</h2>
-                                </div>
-                                <h4 class="subtitle">Campuran Minuman Botani Peria, Madu & Kurma</h4>
-                                <div class="bottomup">
-                                    <img src="{{ asset('img/3-Serangkai-Jumbo.png') }}" alt="" style="height:33vw;">
-                                </div>
-                            </li>
+                            {{--<li class="animate-in">--}}
+                                {{--<div class="info letter-container">--}}
+                                    {{--<h2 class="fade">Jus Tiga Serangkai</h2>--}}
+                                {{--</div>--}}
+                                {{--<h4 class="subtitle">Campuran Minuman Botani Peria, Madu & Kurma</h4>--}}
+                                {{--<div class="bottomup">--}}
+                                    {{--<img src="{{ asset('img/3-Serangkai-Jumbo.png') }}" alt="" style="height:33vw;">--}}
+                                {{--</div>--}}
+                            {{--</li>--}}
                             <li class="animate-in">
                                 {{--<div class="info letter-container">--}}
                                     {{--<h2 class="fade">We creates unique website</h2>--}}
                                 {{--</div>--}}
                                 {{--<h4 class="subtitle">Lorem ipsum dolor sit amet viris torquatos ad vis invidunt singulis</h4>--}}
                                 <div class="lefttop">
-                                    <img src="{{ asset('img/3serangkai.jpg')}}" alt="" style="margin-top: -120px">
+                                    <img src="{{ asset('img/3serangkai.jpg')}}" alt="">
                                 </div>
                             </li>
-                            <li class="animate-in">
-                                <div class="info letter-container">
-                                    <h2 class="fade">JUS TIGA SERANGKAI</h2>
-                                </div>
-                                <h4 class="subtitle">MERUNGKAI PERMASALAHAN KESIHATAN ANDA.</h4>
-                                <div class="righttop">
-                                    <img src="{{ asset('img/3serangkai2.jpg')}}" alt="">
-                                </div>
-                            </li>
+                            {{--<li class="animate-in">--}}
+                                {{--<div class="info letter-container">--}}
+                                    {{--<h2 class="fade">JUS TIGA SERANGKAI</h2>--}}
+                                {{--</div>--}}
+                                {{--<h4 class="subtitle">MERUNGKAI PERMASALAHAN KESIHATAN ANDA.</h4>--}}
+                                {{--<div class="righttop">--}}
+                                    {{--<img src="{{ asset('img/3serangkai2.jpg')}}" alt="">--}}
+                                {{--</div>--}}
+                            {{--</li>--}}
                         </ul>
                     </div>
                 </div>
@@ -122,7 +123,7 @@
         <div class="row">
             <div class="span12">
                 <div class="headline">
-                    <h3><span>JUS 3 SERANGKAI MERUNGKAI PERMASALAHAN KESIHATAN ANDA.</span></h3>
+                    <h3><span>JUS TIGA SERANGKAI MERUNGKAI PERMASALAHAN KESIHATAN ANDA.</span></h3>
                 </div>
             </div>
         </div>
@@ -196,7 +197,7 @@
         <div class="row">
             <div class="span12">
                 <div class="headline">
-                    <h3><span>JUS 3 SERANGKAI</span></h3>
+                    <h3><span>JUS TIGA SERANGKAI</span></h3>
                 </div>
             </div>
             <div class="span12">
@@ -249,31 +250,16 @@
                     KHASIAT 33 HERBA BOTANI dengan gabungan FORMULA METABOLAID (MetA) dan FRUKTO OLIGOSAKARIDA (FOS) telah TERBUKTI boleh membantu MENYELESAIKAN masalah PENYAKIT TIGA SERANGKAI (Penyakit Jantung Koronari, Tekanan Darah Tinggi dan Kencing Manis) ini dengan :
                 </p>
                 <ul style="font-size: 18px;">
-                    <li style="margin: 20px;"><p><b>TINGKATKAN KESAN ANTIRADANG </b> – menghalang keradangan kronik yang merosakkan dinding saluran darah hingga menyebabkan kolesterol jahat (LDL) melekat padanya untuk membentuk plak kolesterol seterusnya menyempitkan saluran darah dan meningkatkan tekanan darah tinggi. Ia juga dapat melindungi reseptor insulin daripada keradangan kronik supaya dapat menggunakan insulin untuk menurunkan paras gula dalam darah kepada paras yang normal.</p></li>
-                    <li style="margin: 20px;"><p><b>TINGKATKAN KESAN ANTIOKSIDAN </b> – merencatkan aktiviti radikal bebas yang boleh merosakkan sel-sel saluran darah hingga menyebabkannya mengeras dan tidak anjal untuk mengembang dan menguncup supaya dapat mengawal paras tekanan darah menjadi normal. Salur darah yang tidak anjal boleh pecah akibat tekanan darah tinggi dan menyebabkan strok atau serangan jantung.</p></li>
-                    <li style="margin: 20px;"><p><b>TINGKATKAN METABOLISME</b> – meningkatkan pembakaran lemak berlebihan dalam badan dengan lebih baik kerana lemak berlebihan adalah toksin yang terkumpul dalam badan.</p></li>
-                    <li style="margin: 20px;"><p><b>TURUNKAN PARAS KOLESTEROL</b> – menurunkan kolesterol jahat (LDL) yang membentuk plak kolesterol dengan meningkatkan kolesterol baik (HDL) dalam saluran darah supaya saluran darah tidak menyempit hingga menyebabkan tekanan darah tinggi berlaku dan tidak menyekat bekalan oksigen ke otot-otot jantung dan otak hingga menyebabkan serangan jantung dan strok.</p></li>
-                    <li style="margin: 20px;"><p><b>TURUNKAN PARAS GULA  </b> – menurunkan paras gula dalam darah supaya tidak berlaku keradangan kronik dalam saluran darah yang akan merosakkan dinding saluran darah dan reseptor insulin serta tidak memaksa penghasilan insulin melebihi had yang menyebabkan pankreas kehilangan fungsi menghasilkan insulin yang mencukupi dalam jangka masa panjang.</p></li>
-                    <li style="margin: 20px;"><p><b>MELANCARKAN SISTEM PEREDARAN DARAH </b> – membantu ritma denyutan jantung menjadi normal dan menganjalkan saluran darah supaya paras tekanan darah menjadi normal.</p></li>
-                    <li style="margin: 20px;"><p><b>MENYELARAS SISTEM IMUN </b> – membantu supaya Sistem Imun menjadi normal (tidak terlalu rendah dan tidak menjadi agresif). Sistem Imun yang agresif akan berlaku autoimun yang akan merosakkan dan mematikan sel-sel pankreas hingga gagal menghasilkan insulin yang mencukupi untuk menurunkan paras gula dalam darah kepada paras yang normal.</p></li>
-                    <li style="margin: 20px;"><p><b>TINGKATKAN PENYERAPAN KALSIUM </b> – membantu memelihara ketumpatan jisim tulang.</p></li>
+                    <li style="margin: 20px;"><p><b>TINGKATKAN KESAN ANTIRADANG </b> – menghalang keradangan kronik yang merosakkan dinding saluran darah hingga menyebabkan kolesterol jahat (LDL) melekat padanya untuk membentuk plak kolesterol seterusnya menyempitkan saluran darah dan meningkatkan tekanan darah tinggi. Ia juga dapat melindungi reseptor insulin daripada keradangan kronik supaya dapat menggunakan insulin untuk menurunkan paras gula dalam darah kepada paras yang normal.</p></li><br>
+                    <li style="margin: 20px;"><p><b>TINGKATKAN KESAN ANTIOKSIDAN </b> – merencatkan aktiviti radikal bebas yang boleh merosakkan sel-sel saluran darah hingga menyebabkannya mengeras dan tidak anjal untuk mengembang dan menguncup supaya dapat mengawal paras tekanan darah menjadi normal. Salur darah yang tidak anjal boleh pecah akibat tekanan darah tinggi dan menyebabkan strok atau serangan jantung.</p></li><br>
+                    <li style="margin: 20px;"><p><b>TINGKATKAN METABOLISME</b> – meningkatkan pembakaran lemak berlebihan dalam badan dengan lebih baik kerana lemak berlebihan adalah toksin yang terkumpul dalam badan.</p></li><br>
+                    <li style="margin: 20px;"><p><b>TURUNKAN PARAS KOLESTEROL</b> – menurunkan kolesterol jahat (LDL) yang membentuk plak kolesterol dengan meningkatkan kolesterol baik (HDL) dalam saluran darah supaya saluran darah tidak menyempit hingga menyebabkan tekanan darah tinggi berlaku dan tidak menyekat bekalan oksigen ke otot-otot jantung dan otak hingga menyebabkan serangan jantung dan strok.</p></li><br>
+                    <li style="margin: 20px;"><p><b>TURUNKAN PARAS GULA  </b> – menurunkan paras gula dalam darah supaya tidak berlaku keradangan kronik dalam saluran darah yang akan merosakkan dinding saluran darah dan reseptor insulin serta tidak memaksa penghasilan insulin melebihi had yang menyebabkan pankreas kehilangan fungsi menghasilkan insulin yang mencukupi dalam jangka masa panjang.</p></li><br>
+                    <li style="margin: 20px;"><p><b>MELANCARKAN SISTEM PEREDARAN DARAH </b> – membantu ritma denyutan jantung menjadi normal dan menganjalkan saluran darah supaya paras tekanan darah menjadi normal.</p></li><br>
+                    <li style="margin: 20px;"><p><b>MENYELARAS SISTEM IMUN </b> – membantu supaya Sistem Imun menjadi normal (tidak terlalu rendah dan tidak menjadi agresif). Sistem Imun yang agresif akan berlaku autoimun yang akan merosakkan dan mematikan sel-sel pankreas hingga gagal menghasilkan insulin yang mencukupi untuk menurunkan paras gula dalam darah kepada paras yang normal.</p></li><br>
+                    <li style="margin: 20px;"><p><b>TINGKATKAN PENYERAPAN KALSIUM </b> – membantu memelihara ketumpatan jisim tulang.</p></li><br>
                     <li style="margin: 20px;"><p><b>PREBIOTIK YANG BAIK </b> – membantu penghasilan dan keseimbangan bakteria baik dalam usus untuk meningkatkan kesihatan usus.</p></li>
                 </ul>
-            </div>
-
-            <div  class="span12">
-                <br><br>
-                <p>
-                    <b>JUS 3 SERANGKAI mengandungi 600ml.</b><br>
-                    <br>
-                    Cara Penggunaan :<br><br>
-
-                    2 sudu besar, 2 kali sehari. (pagi dan malam sebelum makan hidangan utama)<br><br>
-
-                    Jarakkan masa setengah jam jika ada ambil ubat lain.<br><br>
-
-                    {{--33 HERBA BOTANI adalah:<br>--}}
-                </p>
             </div>
             {{--<div class="row">--}}
                 {{--<div class="span4">--}}
@@ -327,6 +313,94 @@
 </section>
 <!-- section works -->
 
+<!-- section manfaat -->
+<section id="manfaat" class="section">
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+                <div class="headline">
+                    <h3><span><b>MANFAAT MENGAMALKAN JUS TIGA SERANGKAI</b></span></h3>
+                </div>
+            </div>
+            {{--<div class="span12">--}}
+                {{--<div class="section-intro">--}}
+                    {{--<p>--}}
+                        {{--<b>MANFAAT UNTUK PENYAKIT JANTUNG KORONARI :</b>--}}
+                    {{--</p>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+            <div  class="span12">
+                <br>
+                <p>
+                    <b>MANFAAT UNTUK PENYAKIT JANTUNG KORONARI :</b>
+                </p>
+                <ul style="font-size: 18px;">
+                    <li style="margin: 20px;"><p>Tiada lagi sakit dada yang mengencang dan menekan.</p></li>
+                    <li style="margin: 20px;"><p>Tiada lagi sakit dada apabila melakukan kerja berat.</p></li>
+                    <li style="margin: 20px;"><p>Risiko serangan stroke / angin ahmar boleh dielakkan.</p></li>
+                </ul>
+            </div>
+            <div  class="span12">
+                <br>
+                <p>
+                    <b>MANFAAT UNTUK MASALAH TEKANAN DARAH TINGGI :</b>
+                </p>
+                <ul style="font-size: 18px;">
+                    <li style="margin: 20px;"><p>Penglihatan tidak menjadi kabur.</p></li>
+                    <li style="margin: 20px;"><p>Tiada lagi sakit ulu hati.</p></li>
+                    <li style="margin: 20px;"><p>Sakit dada yang mengencang dan menekan akan hilang.</p></li>
+                    <li style="margin: 20px;"><p>Tiada lagi rasa berdebar.</p></li>
+                    <li style="margin: 20px;"><p>Tidak lagi kerap sakit kepala.</p></li>
+                    <li style="margin: 20px;"><p>Tiada lagi rasa tegang pada tengkuk.</p></li>
+                    <li style="margin: 20px;"><p>Tiada lagi urat merah pada mata putih yang kelihatan jelas.</p></li>
+                    <li style="margin: 20px;"><p>Tidak lagi mengalami telinga berdengung.</p></li>
+                    <li style="margin: 20px;"><p>Bengkak pada pergelangan kaki akan menyusut.</p></li>
+                    <li style="margin: 20px;"><p>Risiko serangan stroke / angin ahmar boleh dielakkan.</p></li>
+                    <li style="margin: 20px;"><p>Risiko penyakit jantung koronari boleh dielakkan.</p></li>
+                    <li style="margin: 20px;"><p>Risiko kerosakan mata boleh dielakkan.</p></li>
+                    <li style="margin: 20px;"><p>Risiko komplikasi buah pinggang boleh dielakkan.</p></li>
+                </ul>
+            </div>
+            <div  class="span12">
+                <br>
+                <p>
+                    <b>MANFAAT UNTUK MASALAH PENYAKIT KENCING MANIS (DIABETES) :</b>
+                </p>
+                <ul style="font-size: 18px;">
+                    <li style="margin: 20px;"><p>Penglihatan tidak menjadi kabur.</p></li>
+                    <li style="margin: 20px;"><p>Penyakit kulit semakin baik.</p></li>
+                    <li style="margin: 20px;"><p>Luka cepat sembuh.</p></li>
+                    <li style="margin: 20px;"><p>Tidak berlaku jangkitan pada sistem pembuangan air kecil dan kemaluan.</p></li>
+                    <li style="margin: 20px;"><p>Tiada masalah kebas kaki.</p></li>
+                    <li style="margin: 20px;"><p>Tidak lagi kerap dahaga.</p></li>
+                    <li style="margin: 20px;"><p>Kekerapan kencing kembali normal.</p></li>
+                    <li style="margin: 20px;"><p>Lebih bertenaga dan bersemangat.</p></li>
+                    <li style="margin: 20px;"><p>Berat badan kembali ideal.</p></li>
+                    <li style="margin: 20px;"><p>Otot-otot kembali kuat.</p></li>
+                    <li style="margin: 20px;"><p>Tiada lagi kegatalan tanpa ruam.</p></li>
+                    <li style="margin: 20px;"><p>Risiko serangan stroke / angin ahmar boleh dielakkan.</p></li>
+                    <li style="margin: 20px;"><p>Risiko penyakit jantung koronari boleh dielakkan.</p></li>
+                    <li style="margin: 20px;"><p>Risiko buta mata / glaukoma / kataraks boleh dielakkan.</p></li>
+                    <li style="margin: 20px;"><p>Risiko komplikasi buah pinggang boleh dielakkan.</p></li>
+                    <li style="margin: 20px;"><p>Risiko komplikasi saraf boleh dielakkan.</p></li>
+                </ul>
+            </div>
+            <div  class="span12">
+                <br>
+                <p>
+                    <b>JUS TIGA SERANGKAI mengandungi 600ml.</b>
+                </p>
+                <p>Cara Penggunaan :</p>
+                <ul style="font-size: 18px;">
+                    <li style="margin: 20px;"><p>2 sudu besar, 2 kali sehari. (pagi dan malam sebelum makan hidangan utama).</p></li>
+                    <li style="margin: 20px;"><p>Jarakkan masa setengah jam jika ada ambil ubat lain.</p></li>
+                </ul>
+            </div>
+        </div>
+    </div><hr>
+</section>
+<!-- section manfaat -->
+
 <!-- section khasiat -->
 <section id="khasiat">
     <div class="container">
@@ -334,26 +408,11 @@
             <div class="headline">
                 <img src="{{ asset('img/33herba.png')}}" >
             </div>
-            <div class="span6">
-                <div class="headline">
-                    <img src="{{ asset('img/1.jpg')}}" >
-                </div>
-            </div>
-            <div class="span6">
-                <div class="headline">
-                    <img src="{{ asset('img/2.jpg')}}" >
-                </div>
-            </div>
         </div>
         <div class="row">
-            <div class="span6">
+            <div class="span12">
                 <div class="headline">
-                    <img src="{{ asset('img/3.jpg')}}" >
-                </div>
-            </div>
-            <div class="span6">
-                <div class="headline">
-                    <img src="{{ asset('img/4.jpg')}}" >
+                    <img src="{{ asset('img/list_buah.png')}}" >
                 </div>
             </div>
         </div>

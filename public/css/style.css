@@ -557,7 +557,9 @@ ul.the-icons {
 /* ================= featured ========================== */
 
 section#featured {
-	background: #000 url(../img/bg/bg-1.jpg) 50% 0 no-repeat;
+	/*background: #000 url(../img/bg/bg-1.jpg) 50% 0 no-repeat;*/
+    background: rgb(226,225,220);
+    background: radial-gradient(circle, rgba(226,225,220,1) 0%, rgba(247,235,163,1) 50%, rgba(204,187,156,1) 100%);
 	position:relative;
 	width:100%;
 	height:auto;
@@ -809,7 +811,9 @@ section#featured p  {
 
 /* ================= services ============================ */
 section#services {
-	background: #000 url(../img/bg/bg-1.jpg) 50% 0 no-repeat;
+	/*background: #000 url(../img/bg/bg-1.jpg) 50% 0 no-repeat;*/
+    background: rgb(226,225,220);
+    background: radial-gradient(circle, rgba(226,225,220,1) 0%, rgba(247,235,163,1) 50%, rgba(204,187,156,1) 100%);
 	width:100%;
 	height:auto;
 	margin:0;
@@ -822,11 +826,11 @@ section#services {
 }
 
 #services .headline h3 {
-	color:#fff;
+	color: #454545;
 }
 
 #services .section-intro p {
-	color:#f8f8f8;
+	color:#454545;
 }
 
 .service-intro{
@@ -844,10 +848,11 @@ section#services {
 /* ================= halal ============================ */
 section#halal {
     /*background: #000 url(../img/bg/bg-1.jpg) 50% 0 no-repeat;*/
+    background: rgb(226,225,220);
+    background: radial-gradient(circle, rgba(226,225,220,1) 0%, rgba(247,235,163,1) 50%, rgba(204,187,156,1) 100%);
     width:100%;
     height:auto;
     margin:0;
-    background-color: #f7eba3;
 }
 
 @media (min-width: 1024px) {
@@ -1034,7 +1039,9 @@ ul.contact-list li label{
 /* ================= bottom ========================== */
 
 section#bottom {
-	background: url(../img/bg/bg-1.jpg) 50% 0 no-repeat;
+	/*background: url(../img/bg/bg-1.jpg) 50% 0 no-repeat;*/
+    background: rgb(226,225,220);
+    background: radial-gradient(circle, rgba(226,225,220,1) 0%, rgba(247,235,163,1) 50%, rgba(204,187,156,1) 100%);
 	width:100%;
 	height:auto;
 	margin:0;
