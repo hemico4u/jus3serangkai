@@ -35,7 +35,11 @@
         <div class="navbar-inner">
             <div class="container">
                 <div class="logo">
-                    <a class="brand" href="#"><img src="{{ asset('img/3-serangkai-logo.png')}}" alt="" style="width:80px; margin-bottom: 0px;"></a>
+                    @if(isset($number))
+                        <a class="brand" href="/jus3serangkai/{{$number->username}}"><img src="{{ asset('img/3-serangkai-logo.png')}}" alt="" style="width:80px; margin-bottom: 0px;"></a>
+                    @else
+                        <a class="brand" href="/"><img src="{{ asset('img/3-serangkai-logo.png')}}" alt="" style="width:80px; margin-bottom: 0px;"></a>
+                    @endif
                 </div>
                 <div class="navigation">
                     <nav>
@@ -406,9 +410,9 @@
             <div class="section-intro">
                 <div style="width:100%; margin:0 auto;">
                     @if(isset($number))
-                        <a href="https://wa.me/6{{$number->number_phone}}?text=Saya%20Nak%20Jus%20Tiga%20Serangkai" target="_blank"><img src="{{ asset('img/wasap.jpg')}}" ></a>
+                        <a href="/wasap/{{$number->number_phone}}" target="_blank"><img src="{{ asset('img/wasap.jpg')}}" ></a>
                     @else
-                        <a href="https://wa.me/60135111656?text=Saya%20Nak%20Jus%20Tiga%20Serangkai" target="_blank"><img src="{{ asset('img/wasap.jpg')}}"></a>
+                        <a href="https://kliksini.my/Jus-Tiga-Serangkai-TDT" target="_blank"><img src="{{ asset('img/wasap.jpg')}}"></a>
                     @endif
                 </div>
             </div>
@@ -425,14 +429,16 @@
                 <div class="span12">
                     <div class="aligncenter">
                         <div class="logo">
-                            <a class="brand" href="index.html">
-                                <img src="{{ asset('img/3-serangkai-logo.png')}}" alt="" style="width:200px;">
-                            </a>
+                            @if(isset($number))
+                                <a class="brand" href="/jus3serangkai/{{$number->username}}"><img src="{{ asset('img/3-serangkai-logo.png')}}" alt="" style="width:200px;"></a>
+                            @else
+                                <a class="brand" href="/"><img src="{{ asset('img/3-serangkai-logo.png')}}" alt="" style="width:200px;"></a>
+                            @endif
                         </div>
                         <p>MERUNGKAI PERMASALAHAN KESIHATAN ANDA.</p>
                         <div class="social-links">
                             <ul class="social-links">
-                                <li><a href="#" title="Twitter"><i class="icon-circled icon-64 icon-twitter"></i></a></li>
+                                {{--<li><a href="#" title="Twitter"><i class="icon-circled icon-64 icon-twitter"></i></a></li>--}}
                                 <li><a href="https://www.facebook.com/tigaserangkaihemico/" title="Facebook"><i class="icon-circled icon-64 icon-facebook"></i></a></li>
                             </ul>
 

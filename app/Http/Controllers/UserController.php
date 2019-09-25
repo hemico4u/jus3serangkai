@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Staff;
 use App\User;
 use Illuminate\Http\Request;
 use Redirect;
@@ -97,6 +98,18 @@ class UserController extends Controller
             return Redirect::to('/');
         }
         return view('kencing')->with('number', $check);
+    }
+
+    public function wasap($wasap)
+    {
+        return Redirect::to("https://api.whatsapp.com/send?phone=6$wasap&text=Saya%20Nak%20Jus%20Tiga%20Serangkai");
+    }
+
+    public function staff()
+    {
+        $staff = Staff::all()->random()->phone;
+
+        return Redirect::to("https://api.whatsapp.com/send?phone=6$staff&text=Saya%20Nak%20Jus%20Tiga%20Serangkai");
     }
 
     /**

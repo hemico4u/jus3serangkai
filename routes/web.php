@@ -37,3 +37,6 @@ Route::get('info/{user}', 'UserController@info')->name('info');
 Route::get('penyakit-jantung/{user}', 'UserController@jantung')->name('jantung');
 Route::get('darah-tinggi/{user}', 'UserController@darah')->name('darah');
 Route::get('kencing-manis/{user}', 'UserController@kencing')->name('kencing');
+
+Route::get('wasap/{wasap}', 'UserController@wasap')->name('wasap');
+Route::get('/staff', 'UserController@staff')->name('staff');

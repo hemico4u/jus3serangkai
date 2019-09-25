@@ -110,7 +110,7 @@
                         <p>MERUNGKAI PERMASALAHAN KESIHATAN ANDA.</p>
                         <div class="social-links">
                             <ul class="social-links">
-                                <li><a href="#" title="Twitter"><i class="icon-circled icon-64 icon-twitter"></i></a></li>
+                                {{--<li><a href="#" title="Twitter"><i class="icon-circled icon-64 icon-twitter"></i></a></li>--}}
                                 <li><a href="https://www.facebook.com/tigaserangkaihemico/" title="Facebook"><i class="icon-circled icon-64 icon-facebook"></i></a></li>
                             </ul>
 
