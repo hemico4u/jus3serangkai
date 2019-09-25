@@ -103,7 +103,7 @@
         <div class="row">
             <div class="span4">
                 <div class="well box aligncenter" style="height: 410px;">
-                    <img src="{{ asset('img/penyakit-jantung.jpg')}}" alt="" style="height:200px; width:200px">
+                    <img src="{{ asset('img/OrangRamai.jpg')}}" alt="" style="height:200px; width:200px">
                     <p>
                         <b>Tahukah anda seramai 3.6 juta rakyat Malaysia mengidap Penyakit Kencing Manis?</b>
                     </p>
@@ -111,7 +111,7 @@
             </div>
             <div class="span4">
                 <div class="well box aligncenter" style="height: 410px;">
-                    <img src="{{ asset('img/tekanan-darah-tinggi.jpg')}}" alt="" style="height:200px; width:200px">
+                    <img src="{{ asset('img/org.jpg')}}" alt="" style="height:200px; width:200px">
                     <p>
                         <b>Tahukah anda 50% daripada 3.6 juta Pesakit Kencing Manis tidak sedar yang mereka sedang mengidap penyakit tersebut?</b>
                     </p>

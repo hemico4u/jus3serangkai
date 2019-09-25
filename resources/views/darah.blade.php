@@ -103,7 +103,7 @@
         <div class="row">
             <div class="span4">
                 <div class="well box aligncenter" style="height: 410px;">
-                    <img src="{{ asset('img/penyakit-jantung.jpg')}}" alt="" style="height:200px; width:200px">
+                    <img src="{{ asset('img/ubat.jpg')}}" alt="" style="height:200px; width:200px">
                     <p>
                         <b>Anda dah cuba macam-macam ubat dan petua tapi masalah Tekanan Darah Tinggi masih tak hilang juga?</b>
                     </p>
@@ -119,7 +119,7 @@
             </div>
             <div class="span4">
                 <div class="well box aligncenter" style="height: 410px;">
-                    <img src="{{ asset('img/kencing-manis.jpeg')}}" alt="" style="height:200px; width:200px">
+                    <img src="{{ asset('img/org.jpg')}}" alt="" style="height:200px; width:200px">
                     <p>
                         <b>Tau tak apa akan jadi kalau anda biarkan saja masalah Tekanan Darah Tinggi tu?</b>
                     </p>
