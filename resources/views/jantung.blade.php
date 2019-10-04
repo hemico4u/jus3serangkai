@@ -33,12 +33,12 @@
     <!-- start top -->
     <div id="topnav" class="navbar navbar-fixed-top default">
         <div class="navbar-inner">
-            <div class="container">
+            <div class="container" style="padding: 15px 0 15px 0;">
                 <div class="logo">
                     @if(isset($number))
-                        <a class="brand" href="/jus3serangkai/{{$number->username}}"><img src="{{ asset('img/3-serangkai-logo.png')}}" alt="" style="width:80px; margin-bottom: 0px;"></a>
+                        <a class="brand" href="/penyakit-jantung/{{$number->username}}"><img src="{{ asset('img/logo_title.png')}}" class="logobrand"></a>
                     @else
-                        <a class="brand" href="/"><img src="{{ asset('img/3-serangkai-logo.png')}}" alt="" style="width:80px; margin-bottom: 0px;"></a>
+                        <a class="brand" href="/"><img src="{{ asset('img/logo_title.png')}}" class="logobrand"></a>
                     @endif
                 </div>
                 <div class="navigation">
@@ -67,22 +67,24 @@
 
 <!-- section featured -->
 <section id="featured">
-
+<div class="lefttop">
+    <img src="{{ asset('img/3serangkai.jpg')}}" alt="">
+</div>
     <!-- sequence slider -->
-    <div id="sequence-theme">
+    <div id="sequence-theme" style="display : none;">
         <img class="prev" src="{{ asset('img/bt-prev.png')}}" alt="Previous">
         <img class="next" src="{{ asset('img/bt-next.png')}}" alt="Next">
         <div class="container">
             <div class="row">
                 <div class="span12">
                     <div id="sequence">
-                        <ul>
+                        <!-- <ul>
                             <li class="animate-in">
                                 <div class="lefttop">
                                     <img src="{{ asset('img/3serangkai.jpg')}}" alt="">
                                 </div>
                             </li>
-                        </ul>
+                        </ul> -->
                     </div>
                 </div>
             </div>

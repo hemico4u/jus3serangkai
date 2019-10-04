@@ -36,9 +36,9 @@
             <div class="container">
                 <div class="logo">
                     @if(isset($number))
-                        <a class="brand" href="/jus3serangkai/{{$number->username}}"><img src="{{ asset('img/3-serangkai-logo.png')}}" alt="" style="width:80px; margin-bottom: 0px;"></a>
+                        <a class="brand" href="/jus3serangkai/{{$number->username}}"><img src="{{ asset('img/logo_title.png')}}" alt="" style="height: 50px; margin-bottom: 0px;"></a>
                     @else
-                        <a class="brand" href="/"><img src="{{ asset('img/3-serangkai-logo.png')}}" alt="" style="width:80px; margin-bottom: 0px;"></a>
+                        <a class="brand" href="/"><img src="{{ asset('img/logo_title.png')}}" alt="" style="height: 50px; margin-bottom: 0px;"></a>
                     @endif
                 </div>
                 <div class="navigation">
@@ -72,16 +72,19 @@
 
 <!-- section featured -->
 <section id="featured">
+    <div class="lefttop">
+        <img src="{{ asset('img/3serangkai.jpg')}}" alt="">
+    </div>
 
-    <!-- sequence slider -->
-    <div id="sequence-theme">
-        <img class="prev" src="{{ asset('img/bt-prev.png')}}" alt="Previous">
-        <img class="next" src="{{ asset('img/bt-next.png')}}" alt="Next">
-        <div class="container">
-            <div class="row">
-                <div class="span12">
-                    <div id="sequence">
-                        <ul>
+    {{--<!-- sequence slider -->--}}
+    {{--<div id="sequence-theme">--}}
+        {{--<img class="prev" src="{{ asset('img/bt-prev.png')}}" alt="Previous">--}}
+        {{--<img class="next" src="{{ asset('img/bt-next.png')}}" alt="Next">--}}
+        {{--<div class="container">--}}
+            {{--<div class="row">--}}
+                {{--<div class="span12">--}}
+                    {{--<div id="sequence">--}}
+                        {{--<ul>--}}
                             {{--<li class="animate-in">--}}
                                 {{--<div class="info letter-container">--}}
                                     {{--<h2 class="fade">Jus Tiga Serangkai</h2>--}}
@@ -91,15 +94,15 @@
                                     {{--<img src="{{ asset('img/3-Serangkai-Jumbo.png') }}" alt="" style="height:33vw;">--}}
                                 {{--</div>--}}
                             {{--</li>--}}
-                            <li class="animate-in">
+                            {{--<li class="animate-in">--}}
                                 {{--<div class="info letter-container">--}}
                                     {{--<h2 class="fade">We creates unique website</h2>--}}
                                 {{--</div>--}}
                                 {{--<h4 class="subtitle">Lorem ipsum dolor sit amet viris torquatos ad vis invidunt singulis</h4>--}}
-                                <div class="lefttop">
-                                    <img src="{{ asset('img/3serangkai.jpg')}}" alt="">
-                                </div>
-                            </li>
+                                {{--<div class="lefttop">--}}
+                                    {{--<img src="{{ asset('img/3serangkai.jpg')}}" alt="">--}}
+                                {{--</div>--}}
+                            {{--</li>--}}
                             {{--<li class="animate-in">--}}
                                 {{--<div class="info letter-container">--}}
                                     {{--<h2 class="fade">JUS TIGA SERANGKAI</h2>--}}
@@ -109,12 +112,12 @@
                                     {{--<img src="{{ asset('img/3serangkai2.jpg')}}" alt="">--}}
                                 {{--</div>--}}
                             {{--</li>--}}
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+                        {{--</ul>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</div>--}}
     <!-- end sequence slider -->
 </section>
 <!-- end featured -->

@@ -33,29 +33,10 @@
     <!-- start top -->
     <div id="topnav" class="navbar navbar-fixed-top default">
         <div class="navbar-inner">
-            <div class="container">
-                <div class="logo">
-                    <a class="brand" href="/jus3serangkai/{{$info->username}}"><img src="{{ asset('img/3-serangkai-logo.png')}}" alt="" style="width:100px"></a>
+            <div class="container" style="padding: 15px 0 15px 0;">
+            <div class="logo">
+                    <a class="brand" href="/penyakit-jantung/{{$info->username}}"><img src="{{ asset('img/logo_title.png')}}" class="logobrand"></a>
                 </div>
-                <div class="navigation">
-                    <nav>
-                        {{--<ul class="nav pull-right">--}}
-                            {{--<li class="current"><a href="#featured">Halaman</a></li>--}}
-                            {{--<li><a href="#about">Penyakit</a></li>--}}
-                            {{--<li><a href="#services">Penyelesaian</a></li>--}}
-                            {{--<li><a href="#works">Kebaikan</a></li>--}}
-                            {{--<li><a href="#contact">Hubungi</a></li>--}}
-                            {{--<li class="dropdown">--}}
-                                {{--<a href="#">More</a>--}}
-                                {{--<ul class="dropdown-menu">--}}
-                                    {{--<li><a href="components.html" class="external">Components</a></li>--}}
-                                    {{--<li><a href="icons.html" class="external">Icons</a></li>--}}
-                                {{--</ul>--}}
-                            {{--</li>--}}
-                        {{--</ul>--}}
-                    </nav>
-                </div>
-                <!--/.nav-collapse -->
             </div>
         </div>
     </div>
@@ -96,10 +77,10 @@
                         <p style="text-transform: uppercase;">NOMBOR TELEFON : {{$info->number_phone}}</p>
                         <p style="text-transform: uppercase;">LOKASI         : {{$info->location}}</p>
                         <p>EMAIL          : {{$info->email}}</p>
-                        <p>HOME URL            : <a href="{{url('/')."/jus3serangkai/$info->username"}}" target="_blank">{{url('/')."/jus3serangkai/$info->username"}}</a></p>
+                        <!-- <p>HOME URL            : <a href="{{url('/')."/jus3serangkai/$info->username"}}" target="_blank">{{url('/')."/jus3serangkai/$info->username"}}</a></p> -->
                         <p>PENYAKIT JANTUNG URL: <a href="{{url('/')."/penyakit-jantung/$info->username"}}" target="_blank">{{url('/')."/penyakit-jantung/$info->username"}}</a></p>
-                        <p>DARAH TINGGI URL    : <a href="{{url('/')."/darah-tinggi/$info->username"}}" target="_blank">{{url('/')."/darah-tinggi/$info->username"}}</a></p>
-                        <p>KENCING MANIS URL   : <a href="{{url('/')."/kencing-manis/$info->username"}}" target="_blank">{{url('/')."/kencing-manis/$info->username"}}</a></p>
+                        <!-- <p>DARAH TINGGI URL    : <a href="{{url('/')."/darah-tinggi/$info->username"}}" target="_blank">{{url('/')."/darah-tinggi/$info->username"}}</a></p>
+                        <p>KENCING MANIS URL   : <a href="{{url('/')."/kencing-manis/$info->username"}}" target="_blank">{{url('/')."/kencing-manis/$info->username"}}</a></p> -->
                     </div>
                 </div>
             </div>
