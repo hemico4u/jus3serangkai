@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('jantung');
+    return view('darah');
 });
 // Route::get('/jus3serangkai', function () {
 //     return view('welcome');
@@ -34,8 +34,8 @@ Route::get('/', function () {
 Route::get('info/{user}', 'UserController@info')->name('info');
 
 
-Route::get('penyakit-jantung/{user}', 'UserController@jantung')->name('jantung');
-// Route::get('darah-tinggi/{user}', 'UserController@darah')->name('darah');
+//Route::get('penyakit-jantung/{user}', 'UserController@jantung')->name('jantung');
+ Route::get('darah-tinggi/{user}', 'UserController@darah')->name('darah');
 // Route::get('kencing-manis/{user}', 'UserController@kencing')->name('kencing');
 
 Route::get('wasap/{wasap}', 'UserController@wasap')->name('wasap');

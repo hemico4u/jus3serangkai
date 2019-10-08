@@ -805,9 +805,11 @@ ol ul {
 }
 
 li {
-  line-height: 20px;
-  /*font-size: 18px;*/
-  /*margin: 10px;*/
+  font-size: 15px;
+  line-height:1.6em;
+  margin-bottom: 1em;
+  font-family: 'Calibri';
+  color: #000000;
 }
 
 ul.unstyled,

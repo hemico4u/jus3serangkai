@@ -118,7 +118,7 @@ header{
 }
 
 .navbar .nav > .current a:focus, .navbar .nav > .current a:hover  {
-  color:#fff;
+  color: #000000;
 }
 
 .navbar .nav li.dropdown > a:hover .caret {
@@ -157,12 +157,12 @@ ul.nav li ul.dropdown-menu {
 
 .default {
 	/*background:url(../img/nav-default-bg.png) repeat;*/
-    background-color: #2f3040;
+    background-color: #000000;
 }
 
 .fixed {
   position: fixed;
-  background:#2f3040;
+    background: #000000;
   top:0;
   left: 0;
   width: 100%;
@@ -206,7 +206,7 @@ section {
 	text-transform:uppercase;
 	padding:0;
 	margin:20px 0 30px 0;
-	font-size:8vw;
+    font-size: 20px;
 	text-align:center;
 	text-shadow: 0 1px 0 #ffffff;
 }
@@ -1429,7 +1429,7 @@ img.pull-left{
 	}
 	.default {
 	position: fixed;
-	background:#2a2a2a;
+        background: #000000;
 	top:0;
 	left: 0;
 	width: 100%;
@@ -1452,14 +1452,14 @@ img.pull-left{
 	}
 	.default {
 	position: fixed;
-	background:#2a2a2a;
+        background: #000000;
 	width: 100%;
 	padding-right:20px;
 	}
 
 	.fixed {
 	position: fixed;
-	background:#2a2a2a;
+        background: #000000;
 	top:0;
 	left: 0;
 	width: 100%;
@@ -1575,4 +1575,17 @@ ul.filter li {
     margin-bottom: 0px;
 }
 
+    .phone {
+        margin-top: 90px;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .phone {
+        width: 600px;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

@@ -47,12 +47,12 @@ a:hover {
 
 
 .navbar .nav > li > a:hover {
-  color: #ef6603;
+  color: #dcc07d;
 }
 
 
 ul.nav li.current {
-  background: #ef6603;
+  background: #dcc07d;
 }
 .dropdown-menu li > a:hover,
 .dropdown-menu li > a:focus,
