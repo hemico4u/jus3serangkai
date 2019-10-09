@@ -32,6 +32,7 @@ Route::get('/', function () {
  Route::get('register', 'UserController@register')->name('register');
  Route::post('submit', 'UserController@submit')->name('submit');
 Route::get('info/{user}', 'UserController@info')->name('info');
+Route::post('gotoinfo', 'UserController@goto')->name('goto');
 
 
 //Route::get('penyakit-jantung/{user}', 'UserController@jantung')->name('jantung');

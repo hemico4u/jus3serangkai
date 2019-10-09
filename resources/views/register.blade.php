@@ -119,9 +119,9 @@
                 <div class="row">
                     <div class="span12" style="text-align: center">
                         <h3>Sila isi Ruangan Kosong Di Bawah</h3><br>
-                        {{--@if(isset($msj))--}}
-                            {{--<p style="color: red">hahahhahahahah</p>--}}
-                            {{--@endif--}}
+                        @if($errors->any())
+                            <p style="color: red">{{$errors->first()}}</p>
+                        @endif
                     </div>
                 </div>
                 <form action="/submit" method="post" class="contactForm">
@@ -156,6 +156,22 @@
                         </li>
                         <li class="last">
                             <button class="btn btn-large btn-theme" type="submit" id="send">Daftar Sekarang</button>
+                        </li>
+                    </ul>
+                </form>
+                <br><br><br>
+                <div class="span12" style="text-align: center">
+                    <h3>Untuk Melihat info Agen, Sila ini Username atau Nombor Telefon di bawah</h3><br>
+                </div>
+                <form action="/gotoinfo" method="post" class="contactForm">
+                    {{ csrf_field() }}
+                    <ul class="contact-list">
+                        <li class="form-group">
+                            <input type="text" name="username" class="form_input" id="username" placeholder="Username @ No. Phone">
+                            <div class="validation"></div>
+                        </li>
+                        <li class="last">
+                            <button class="btn btn-large btn-theme" type="submit" id="send">Lihat</button>
                         </li>
                     </ul>
                 </form>

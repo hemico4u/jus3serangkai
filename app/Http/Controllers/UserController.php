@@ -6,6 +6,7 @@ use App\Staff;
 use App\User;
 use Illuminate\Http\Request;
 use Redirect;
+use Illuminate\Support\Facades\Log;
 
 class UserController extends Controller
 {
@@ -110,6 +111,26 @@ class UserController extends Controller
         $staff = Staff::all()->random()->phone;
 
         return Redirect::to("https://api.whatsapp.com/send?phone=6$staff&text=Saya%20Nak%20Jus%20Tiga%20Serangkai");
+    }
+
+    public function goto(Request $request)
+    {
+        $check = User::where('username', $request->username)->first();
+
+        if (!isset($check)){
+            $check = User::where('number_phone', $request->username)->first();
+            if (!isset($check)){
+//                return Redirect::to('/register');
+                return Redirect::back()->withErrors(['Sila Masukkan username ATAU nombor telefon yang telah didaftarkan']);
+            }
+        }
+
+        return redirect("/info/$check->username");
+    }
+
+    public function tester()
+    {
+        log::alert('ok');
     }
 
     /**

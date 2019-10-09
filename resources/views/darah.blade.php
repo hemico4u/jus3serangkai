@@ -160,7 +160,7 @@
                 <p><br><b>Elak dan cegah Penyakit Tekanan Darah Tinggi anda dengan JUS TIGA SERANGKAI sekarang!</b></p>
 
                 <p style="text-align: center; font-size: 18px;">
-                    <br>
+                    <br><br>
                     <b>
                         BAGAIMANA JUS TIGA SERANGKAI <br>MEMBANTU
                         MENYELESAIKAN <br>PENYAKIT TEKANAN DARAH TINGGI?
