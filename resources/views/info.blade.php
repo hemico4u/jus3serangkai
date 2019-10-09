@@ -106,9 +106,10 @@
 
 
                         <p>
-                            DARAH TINGGI URL    : <a href="{{url('/')."/darah-tinggi/$info->username"}}" target="_blank">{{url('/')."/darah-tinggi/$info->username"}}</a>
-                            <input type="text" value="{{url('/')."/darah-tinggi/$info->username"}}" id="myInput" style="display: none">
+                            DARAH TINGGI URL    : <text style="color: #ef6603;">{{url('/')."/darah-tinggi/$info->username"}}</text>
+                            <input type="text" value="{{url('/')."/darah-tinggi/$info->username"}}" id="myInput" style="display: none"><br>
                             <button onclick="myFunction()" class="btn btn-color">Copy Link</button>
+                            <a href="{{url('/')."/darah-tinggi/$info->username"}}" target="_blank" class="btn btn-color" style="background: #5777ef;">View Page</a>
                         </p>
 
 
