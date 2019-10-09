@@ -57,7 +57,7 @@
             <div class="container" style="padding: 15px 0 15px 0;">
                 <div class="logo">
                     @if(isset($number))
-                        <a class="brand" href="/jus3serangkai/{{$number->username}}"><img src="{{ asset('img/logo_title.png')}}" class="logobrand"></a>
+                        <a class="brand" href="/darah-tinggi/{{$number->username}}"><img src="{{ asset('img/logo_title.png')}}" class="logobrand"></a>
                     @else
                         <a class="brand" href="/"><img src="{{ asset('img/logo_title.png')}}" class="logobrand"></a>
                     @endif
@@ -86,13 +86,13 @@
                 <div>
                     <img src="{{ asset('img/Penyakit-top.jpg')}}">
                 </div>
-                <p style="text-align: center; font-size: 21px;">
-                    <b>PENYAKIT TEKANAN DARAH TINGGI ANDA MASIH TAK HILANG WALAU DAH CUBA MACAM-MACAM UBAT DAN PETUA?</b>
+                <p style="text-align: center; font-size: 18px;">
+                    <b><br>PENYAKIT TEKANAN DARAH TINGGI <br>ANDA MASIH TAK HILANG WALAU <br>DAH CUBA MACAM-MACAM <br>UBAT DAN PETUA?</b>
                 </p>
                 <br>
                 <p style="text-align: center;">
-                    <b>Tahukah anda seramai 5.8 juta rakyat Malaysia berusia 18 tahun ke atas menghidap<br>
-                        Penyakit Tekanan Darah Tinggi yang juga penyumbang utama kematian di negara ini?<br>
+                    <b>Tahukah anda seramai 5.8 juta <br>rakyat Malaysia berusia 18 tahun ke atas <br>menghidap
+                        Penyakit Tekanan Darah Tinggi <br>yang juga penyumbang utama kematian <br>di negara ini?<br>
                         (Statistik dari Kementerian Kesihatan Malaysia)
                     </b>
                 </p>
@@ -107,7 +107,7 @@
                     Anda perlu tahu bahawa punca utama yang menyebabkan Penyakit Tekanan Darah Tinggi bukan semata-mata disebabkan oleh makanan yang tinggi kolesterol, gula dan garam sahaja!
                 </p>
                 <br>
-                <p style="text-align: center; font-size: 21px;">
+                <p style="text-align: center; font-size: 18px;">
                     <br>
                     <b>6 FAKTOR PENYEBAB PENYAKIT TEKANAN DARAH TINGGI</b>
                 </p>
@@ -120,10 +120,9 @@
                     <li><p><b>Pengambilan garam berlebihan</b>- akan membendung air dalam saluran darah seterusnya membengkakkan dinding saluran darah yang menyempitkan salur darah hingga meningkatkan tekanan darah.</p></li>
                 </ol>
                 <br>
-                <p style="text-align: center; font-size: 21px;">
+                <p style="text-align: center; font-size: 18px;">
                     <br>
-                    <b>APA MASALAH YANG KERAP DIALAMI OLEH<br>
-                        PESAKIT TEKANAN DARAH TINGGI?
+                    <b>APA MASALAH YANG <br>KERAP DIALAMI OLEH PESAKIT <br>TEKANAN DARAH TINGGI?
                     </b>
                 </p>
                 <ul>
@@ -138,10 +137,10 @@
                     <li>Bengkak tidak menyusut pada pergelangan kaki.</li>
                 </ul>
                 <br>
-                <p style="text-align: center; font-size: 21px;">
+                <p style="text-align: center; font-size: 18px;">
                     <br>
-                    <b>APA AKAN JADI JIKA PENYAKIT TEKANAN DARAH TINGGI ANDA<br>
-                        TIDAK DIKAWAL DAN DIRAWAT SEKARANG?
+                    <b>APA AKAN JADI JIKA PENYAKIT <br>TEKANAN DARAH TINGGI ANDA<br>
+                        TIDAK DIKAWAL DAN DIRAWAT <br>SEKARANG?
                     </b>
                 </p>
                 <ul>
@@ -160,21 +159,21 @@
 
                 <p><br><b>Elak dan cegah Penyakit Tekanan Darah Tinggi anda dengan JUS TIGA SERANGKAI sekarang!</b></p>
 
-                <p style="text-align: center; font-size: 21px;">
+                <p style="text-align: center; font-size: 18px;">
                     <br>
                     <b>
-                        BAGAIMANA JUS TIGA SERANGKAI MEMBANTU<br>
-                        MENYELESAIKAN PENYAKIT TEKANAN DARAH TINGGI?
+                        BAGAIMANA JUS TIGA SERANGKAI <br>MEMBANTU
+                        MENYELESAIKAN <br>PENYAKIT TEKANAN DARAH TINGGI?
 
                     </b>
                 </p>
 
                 <p style="text-align: center;">
-                    <b>
-                        JUS TIGA SERANGKAI adalah minuman campuran   33 Herba Botani yang dapat membantu menyelesaikan Penyakit Tekanan Darah Tinggi anda.
+                    <b><br>
+                        JUS TIGA SERANGKAI adalah <br>minuman campuran 33 Herba Botani <br>yang dapat membantu menyelesaikan <br>Penyakit Tekanan Darah Tinggi anda.
                     </b>
                 </p>
-
+                <br>
                 <ul>
                     <li>JUS TIGA SERANGKAI menggunakan Formula METABOLAID (MetA) dari gabungan Bunga Raya dan Lemon Verbena untuk :-
                         <ul><br>
@@ -193,20 +192,20 @@
 
                 </ul>
 
-                <p><b>Setelah anda amalkan JUS TIGA SERANGKAI ni, anda akan dapati :-</b></p>
+                <p><b>Setelah anda amalkan JUS TIGA SERANGKAI ni, anda akan dapati :-</b></p><br>
                 <ul>
-                    <li>Anda lebih tenang dan tidak mudah stres atau meradang.</li>
-                    <li>Anda tidak lagi kerap sakit kepala dan rasa berat.</li>
-                    <li>Anda tidak lagi rasa tegang dan berat pada tengkuk.</li>
-                    <li>Anda tidak lagi muntah kerana sakit kepala yang kuat.</li>
-                    <li>Anda tidak lagi rasa dada berdebar yang kerap.</li>
-                    <li>Anda dapati tiada lagi urat merah pada mata putih.</li>
-                    <li>Anda dapati tiada lagi rasa telinga berdengung.</li>
-                    <li>Anda dapati bengkak pada pergelangan kaki semakin menyusut.</li>
-                    <li>Anda rasa lega kerana risiko serangan strok / angin ahmar boleh dielakkan.</li>
-                    <li>Anda rasa lega kerana risiko penyakit jantung koronari / serangan jantung boleh dielakkan.</li>
-                    <li>Anda rasa lega kerana risiko kerosakan mata boleh dielakkan.</li>
-                    <li>Anda rasa lega kerana risiko komplikasi dan kerosakan buah pinggang boleh dielakkan.</li>
+                    <li>Anda lebih tenang dan tidak mudah stres atau meradang.</li><br>
+                    <li>Anda tidak lagi kerap sakit kepala dan rasa berat.</li><br>
+                    <li>Anda tidak lagi rasa tegang dan berat pada tengkuk.</li><br>
+                    <li>Anda tidak lagi muntah kerana sakit kepala yang kuat.</li><br>
+                    <li>Anda tidak lagi rasa dada berdebar yang kerap.</li><br>
+                    <li>Anda dapati tiada lagi urat merah pada mata putih.</li><br>
+                    <li>Anda dapati tiada lagi rasa telinga berdengung.</li><br>
+                    <li>Anda dapati bengkak pada pergelangan kaki semakin menyusut.</li><br>
+                    <li>Anda rasa lega kerana risiko serangan strok / angin ahmar boleh dielakkan.</li><br>
+                    <li>Anda rasa lega kerana risiko penyakit jantung koronari / serangan jantung boleh dielakkan.</li><br>
+                    <li>Anda rasa lega kerana risiko kerosakan mata boleh dielakkan.</li><br>
+                    <li>Anda rasa lega kerana risiko komplikasi dan kerosakan buah pinggang boleh dielakkan.</li><br>
                     <li>Anda rasa lega kerana risiko kematian akibat serangan strok / angin ahmar, penyakit jantung koronari / serangan jantung, komplikasi dan kerosakan buah pinggang boleh dielakkan.</li>
                 </ul>
                 <br><br>
@@ -215,10 +214,10 @@
                     <img src="{{ asset('img/list_buah.png')}}" >
                 </div>
                 <br>
-                <p style="text-align: center; font-size: 21px;">
+                <p style="text-align: center; font-size: 18px;">
                     <br>
                     <b>
-                        JUS TIGA SERANGKAI MAKANAN TERBAIK UNTUK<br>
+                        JUS TIGA SERANGKAI <br>MAKANAN TERBAIK UNTUK<br>
                         PENYAKIT TEKANAN DARAH TINGGI
                     </b>
                 </p>
@@ -226,25 +225,25 @@
                 <div>
                     <img src="{{ asset('img/Features-bottom.jpg')}}" >
                 </div>
-                <p style="text-align: center; font-size: 21px;">
-                    <br>
+                <p style="text-align: center; font-size: 18px;">
+                    <br><br>
                     <b>
                         MENDAPAT SIJIL HALAL DARI JAKIM
                     </b>
                 </p>
-                <img style="width: 70%; padding-left: 15%;" src="{{ asset('img/halal.jpg')}}" >
+                <img src="{{ asset('img/halal.jpg')}}" >
                 <br>
-                <p style="text-align: center; font-size: 21px;">
-                    <br>
+                <p style="text-align: center; font-size: 18px;">
+                    <br><br>
                     <b>
                         HUBUNGI KAMI
                     </b>
                 </p>
                 <p style="text-align: center;">
-                    Sebaiknya, sebelum anda mencuba JUS TIGA SERANGKAI ni, dapatkan khidmat nasihat daripada kami supaya kami dapat pastikan kami dapat bantu selesaikan masalah anda dengan berkesan!
+                    Sebaiknya, sebelum anda mencuba <br>JUS TIGA SERANGKAI ni, dapatkan khidmat <br>nasihat daripada kami supaya kami dapat <br>pastikan kami dapat bantu selesaikan <br>masalah anda dengan berkesan!
                 </p>
                 <p style="text-align: center;">
-                    <b>KAMI JUGA NAK TAWARKAN HARGA ISTIMEWA UNTUK ANDA!<br><br>
+                    <b>KAMI JUGA NAK TAWARKAN <br>HARGA ISTIMEWA UNTUK ANDA!<br><br>
                         KLIK GAMBAR DI BAWAH UNTUK TERUS WHATSAPP KAMI SEKARANG!</b>
                 </p>
 
@@ -267,7 +266,7 @@
                     <div class="aligncenter">
                         <div class="logo">
                             @if(isset($number))
-                                <a class="brand" href="/jus3serangkai/{{$number->username}}"><img src="{{ asset('img/3-serangkai-logo.png')}}" alt="" style="width:200px;"></a>
+                                <a class="brand" href="/darah-tinggi/{{$number->username}}"><img src="{{ asset('img/3-serangkai-logo.png')}}" alt="" style="width:200px;"></a>
                             @else
                                 <a class="brand" href="/"><img src="{{ asset('img/3-serangkai-logo.png')}}" alt="" style="width:200px;"></a>
                             @endif

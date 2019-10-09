@@ -82,6 +82,21 @@
     <!-- end top -->
 </header>
 
+<header>
+
+    <!-- start top -->
+    <div id="topnav" class="navbar navbar-fixed-top default">
+        <div class="navbar-inner">
+            <div class="container" style="padding: 15px 0 15px 0;">
+                <div class="logo">
+                    <a class="brand" href="/"><img src="{{ asset('img/logo_title.png')}}" class="logobrand"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end top -->
+</header>
+
 <!-- section featured -->
 <section id="featured">
     <div class="container">
@@ -157,7 +172,7 @@
                 <div class="span12">
                     <div class="aligncenter">
                         <div class="logo">
-                            <a class="brand" href="index.html">
+                            <a class="brand" href="/">
                                 <img src="{{ asset('img/3-serangkai-logo.png')}}" alt="" style="width:200px;">
                             </a>
                         </div>

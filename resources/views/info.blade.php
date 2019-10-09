@@ -55,7 +55,7 @@
         <div class="navbar-inner">
             <div class="container" style="padding: 15px 0 15px 0;">
             <div class="logo">
-                    <a class="brand" href="/penyakit-jantung/{{$info->username}}"><img src="{{ asset('img/logo_title.png')}}" class="logobrand"></a>
+                    <a class="brand" href="/darah-tinggi/{{$info->username}}"><img src="{{ asset('img/logo_title.png')}}" class="logobrand"></a>
                 </div>
             </div>
         </div>
@@ -97,10 +97,24 @@
                         <p style="text-transform: uppercase;">NOMBOR TELEFON : {{$info->number_phone}}</p>
                         <p style="text-transform: uppercase;">LOKASI         : {{$info->location}}</p>
                         <p>EMAIL          : {{$info->email}}</p>
+
+
                         <!-- <p>HOME URL            : <a href="{{url('/')."/jus3serangkai/$info->username"}}" target="_blank">{{url('/')."/jus3serangkai/$info->username"}}</a></p> -->
-                        <p>PENYAKIT JANTUNG URL: <a href="{{url('/')."/penyakit-jantung/$info->username"}}" target="_blank">{{url('/')."/penyakit-jantung/$info->username"}}</a></p>
-                        <!-- <p>DARAH TINGGI URL    : <a href="{{url('/')."/darah-tinggi/$info->username"}}" target="_blank">{{url('/')."/darah-tinggi/$info->username"}}</a></p>
-                        <p>KENCING MANIS URL   : <a href="{{url('/')."/kencing-manis/$info->username"}}" target="_blank">{{url('/')."/kencing-manis/$info->username"}}</a></p> -->
+
+
+                        {{--<p>PENYAKIT JANTUNG URL: <a href="{{url('/')."/penyakit-jantung/$info->username"}}" target="_blank">{{url('/')."/penyakit-jantung/$info->username"}}</a></p>--}}
+
+
+                        <p>
+                            DARAH TINGGI URL    : <a href="{{url('/')."/darah-tinggi/$info->username"}}" target="_blank">{{url('/')."/darah-tinggi/$info->username"}}</a>
+                            <input type="text" value="{{url('/')."/darah-tinggi/$info->username"}}" id="myInput" style="display: none">
+                            <button onclick="myFunction()" class="btn btn-color">Copy Link</button>
+                        </p>
+
+
+                        {{--<p>KENCING MANIS URL   : <a href="{{url('/')."/kencing-manis/$info->username"}}" target="_blank">{{url('/')."/kencing-manis/$info->username"}}</a></p>--}}
+
+
                     </div>
                 </div>
             </div>
@@ -117,7 +131,7 @@
                     <div class="aligncenter">
                         <div class="logo">
                             @if(isset($info))
-                                <a class="brand" href="/jus3serangkai/{{$info->username}}"><img src="{{ asset('img/3-serangkai-logo.png')}}" alt="" style="width:200px;"></a>
+                                <a class="brand" href="/darah-tinggi/{{$info->username}}"><img src="{{ asset('img/3-serangkai-logo.png')}}" alt="" style="width:200px;"></a>
                             @else
                                 <a class="brand" href="/"><img src="{{ asset('img/3-serangkai-logo.png')}}" alt="" style="width:200px;"></a>
                             @endif
@@ -149,6 +163,16 @@
         </div>
     </div>
 </footer>
+
+<script>
+    function myFunction() {
+        var copyText = document.getElementById("myInput");
+        copyText.select();
+        copyText.setSelectionRange(0, 99999)
+        document.execCommand("copy");
+        alert("Copied the text: " + copyText.value);
+    }
+</script>
 
 <!-- Javascript Library Files -->
 <script src="{{ asset('js/jquery.min.js')}}"></script>
