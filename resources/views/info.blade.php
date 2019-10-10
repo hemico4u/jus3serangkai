@@ -55,7 +55,7 @@
         <div class="navbar-inner">
             <div class="container" style="padding: 15px 0 15px 0;">
             <div class="logo">
-                    <a class="brand" href="/darah-tinggi/{{$info->username}}"><img src="{{ asset('img/logo_title.png')}}" class="logobrand"></a>
+                    <a class="brand" href="/jus3serangkai/{{$info->username}}"><img src="{{ asset('img/logo_title.png')}}" class="logobrand"></a>
                 </div>
             </div>
         </div>
@@ -106,10 +106,10 @@
 
 
                         <p>
-                            DARAH TINGGI URL    : <text style="color: #ef6603;">{{url('/')."/darah-tinggi/$info->username"}}</text>
-                            <input type="text" value="{{url('/')."/darah-tinggi/$info->username"}}" id="myInput" style="display: none"><br>
+                            DARAH TINGGI URL    : <text style="color: #ef6603;">{{url('/')."/hipertensi/$info->username"}}</text>
+                            <input type="text" value="{{url('/')."/hipertensi/$info->username"}}" id="myInput" style="display: none"><br>
                             <button onclick="myFunction()" class="btn btn-color">Copy Link</button>
-                            <a href="{{url('/')."/darah-tinggi/$info->username"}}" target="_blank" class="btn btn-color" style="background: #5777ef;">View Page</a>
+                            <a href="{{url('/')."/hipertensi/$info->username"}}" target="_blank" class="btn btn-color" style="background: #5777ef;">View Page</a>
                         </p>
 
 
@@ -132,7 +132,7 @@
                     <div class="aligncenter">
                         <div class="logo">
                             @if(isset($info))
-                                <a class="brand" href="/darah-tinggi/{{$info->username}}"><img src="{{ asset('img/3-serangkai-logo.png')}}" alt="" style="width:200px;"></a>
+                                <a class="brand" href="/jus3serangkai/{{$info->username}}"><img src="{{ asset('img/3-serangkai-logo.png')}}" alt="" style="width:200px;"></a>
                             @else
                                 <a class="brand" href="/"><img src="{{ asset('img/3-serangkai-logo.png')}}" alt="" style="width:200px;"></a>
                             @endif

@@ -57,7 +57,7 @@
             <div class="container" style="padding: 15px 0 15px 0;">
                 <div class="logo">
                     @if(isset($number))
-                        <a class="brand" href="/darah-tinggi/{{$number->username}}"><img src="{{ asset('img/logo_title.png')}}" class="logobrand"></a>
+                        <a class="brand" href="/jus3serangkai/{{$number->username}}"><img src="{{ asset('img/logo_title.png')}}" class="logobrand"></a>
                     @else
                         <a class="brand" href="/"><img src="{{ asset('img/logo_title.png')}}" class="logobrand"></a>
                     @endif
@@ -96,6 +96,10 @@
                         (Statistik dari Kementerian Kesihatan Malaysia)
                     </b>
                 </p>
+                <br>
+                <div class="aligncenter">
+                    <img style="width: 400px" src="{{ asset('img/statistik.jpeg')}}" >
+                </div>
                 <br>
                 <p style="text-align: center;">
                     <b>
@@ -155,7 +159,11 @@
                 <p>
                     Disebabkan majoriti pesakit Tekanan Darah Tinggi tidak mempunyai apa-apa simptom ketika mengalami penyakit ini dan menganggap masalah-masalah yang dialami sebagai masalah biasa, akhirnya Penyakit Tekanan Darah Tinggi mereka semakin melarat dan bertambah serius hingga membawa kepada kematian.
                 </p>
-                <p><br>Sebab itulah Penyakit Tekanan Darah Tinggi digelar sebagai Penyakit Pembunuh Dalam Senyap.</p>
+                <p><br>Sebab itulah Penyakit Tekanan Darah Tinggi digelar sebagai Penyakit Pembunuh Dalam Senyap.<br><br></p>
+
+                <div class="aligncenter">
+                    <img src="{{ asset('img/kematian.jpeg')}}" >
+                </div>
 
                 <p><br><b>Elak dan cegah Penyakit Tekanan Darah Tinggi anda dengan JUS TIGA SERANGKAI sekarang!</b></p>
 
@@ -210,7 +218,7 @@
                 </ul>
                 <br><br>
                 <div>
-                    <img src="{{ asset('img/33herba.png')}}" ><br>
+                    <img src="{{ asset('img/33_herba_terbaik.png')}}" ><br>
                     <img src="{{ asset('img/list_buah.png')}}" >
                 </div>
                 <br>
@@ -248,9 +256,9 @@
                 </p>
 
                 @if(isset($number))
-                    <a href="/wasap/{{$number->number_phone}}" target="_blank"><img style="width: 80%; padding-left: 10%;" src="{{ asset('img/wasap.jpg')}}" ></a>
+                    <a href="/wasap/{{$number->number_phone}}" target="_blank"><img style="width: 80%; padding-left: 10%;" src="{{ asset('img/whatsapp-sekarang.gif')}}" ></a>
                 @else
-                    <a href="https://kliksini.my/Info-JTS" target="_blank"><img style="width: 80%; padding-left: 10%;" src="{{ asset('img/wasap.jpg')}}" ></a>
+                    <a href="https://kliksini.my/Info-JTS" target="_blank"><img style="width: 80%; padding-left: 10%;" src="{{ asset('img/whatsapp-sekarang.jpg')}}" ></a>
                 @endif
             </div>
         </div>
@@ -266,7 +274,7 @@
                     <div class="aligncenter">
                         <div class="logo">
                             @if(isset($number))
-                                <a class="brand" href="/darah-tinggi/{{$number->username}}"><img src="{{ asset('img/3-serangkai-logo.png')}}" alt="" style="width:200px;"></a>
+                                <a class="brand" href="/jus3serangkai/{{$number->username}}"><img src="{{ asset('img/3-serangkai-logo.png')}}" alt="" style="width:200px;"></a>
                             @else
                                 <a class="brand" href="/"><img src="{{ asset('img/3-serangkai-logo.png')}}" alt="" style="width:200px;"></a>
                             @endif

@@ -161,7 +161,7 @@
                 </form>
                 <br><br><br>
                 <div class="span12" style="text-align: center">
-                    <h3>Untuk Melihat info Agen, Sila isi Username atau Nombor Telefon di bawah</h3><br>
+                    <h3>Untuk menyemak info Agen, Sila isi Username atau Nombor Telefon di bawah</h3><br>
                 </div>
                 <form action="/gotoinfo" method="post" class="contactForm">
                     {{ csrf_field() }}

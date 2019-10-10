@@ -48,31 +48,31 @@
 </head>
 
 <body>
-<header>
 
-    <!-- start top -->
-    <div id="topnav" class="navbar navbar-fixed-top default">
-        <div class="navbar-inner">
-            <div class="container">
-                <div class="logo">
-                    @if(isset($number))
-                        <a class="brand" href="/jus3serangkai/{{$number->username}}"><img src="{{ asset('img/logo_title.png')}}" alt="" style="height: 50px; margin-bottom: 0px;"></a>
-                    @else
-                        <a class="brand" href="/"><img src="{{ asset('img/logo_title.png')}}" alt="" style="height: 50px; margin-bottom: 0px;"></a>
-                    @endif
-                </div>
-                <div class="navigation">
-                    <nav>
-                        <ul class="nav pull-right">
-                            <li class="current"><a href="#featured">Halaman</a></li>
-                            <li><a href="#about">Penyakit</a></li>
-                            <li><a href="#works">Penyelesaian</a></li>
-                            <li><a href="#manfaat">Manfaat</a></li>
-                            <li><a href="#khasiat">Kebaikan</a></li>
-                            <li><a href="#contact">Hubungi</a></li>
-                            @if(isset($number))
-                                <li><a href="/info/{{$number->username}}">Info Agen</a></li>
-                            @endif
+{{--<header>--}}
+    {{--<!-- start top -->--}}
+    {{--<div id="topnav" class="navbar navbar-fixed-top default">--}}
+        {{--<div class="navbar-inner">--}}
+            {{--<div class="container">--}}
+                {{--<div class="logo">--}}
+                    {{--@if(isset($number))--}}
+                        {{--<a class="brand" href="/jus3serangkai/{{$number->username}}"><img src="{{ asset('img/logo_title.png')}}" alt="" style="height: 50px; margin-bottom: 0px;"></a>--}}
+                    {{--@else--}}
+                        {{--<a class="brand" href="/"><img src="{{ asset('img/logo_title.png')}}" alt="" style="height: 50px; margin-bottom: 0px;"></a>--}}
+                    {{--@endif--}}
+                {{--</div>--}}
+                {{--<div class="navigation">--}}
+                    {{--<nav>--}}
+                        {{--<ul class="nav pull-right">--}}
+                            {{--<li class="current"><a href="#featured">Halaman</a></li>--}}
+                            {{--<li><a href="#about">Penyakit</a></li>--}}
+                            {{--<li><a href="#works">Penyelesaian</a></li>--}}
+                            {{--<li><a href="#manfaat">Manfaat</a></li>--}}
+                            {{--<li><a href="#khasiat">Kebaikan</a></li>--}}
+                            {{--<li><a href="#contact">Hubungi</a></li>--}}
+                            {{--@if(isset($number))--}}
+                                {{--<li><a href="/info/{{$number->username}}">Info Agen</a></li>--}}
+                            {{--@endif--}}
                             {{--<li class="dropdown">--}}
                                 {{--<a href="#">More</a>--}}
                                 {{--<ul class="dropdown-menu">--}}
@@ -80,6 +80,35 @@
                                     {{--<li><a href="icons.html" class="external">Icons</a></li>--}}
                                 {{--</ul>--}}
                             {{--</li>--}}
+                        {{--</ul>--}}
+                    {{--</nav>--}}
+                {{--</div>--}}
+                {{--<!--/.nav-collapse -->--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</div>--}}
+    {{--<!-- end top -->--}}
+{{--</header>--}}
+
+<header>
+
+    <!-- start top -->
+    <div id="topnav" class="navbar navbar-fixed-top default">
+        <div class="navbar-inner">
+            <div class="container" style="padding: 15px 0 15px 0;">
+                <div class="logo">
+                    @if(isset($number))
+                        <a class="brand" href="/jus3serangkai/{{$number->username}}"><img src="{{ asset('img/logo_title.png')}}" class="logobrand"></a>
+                    @else
+                        <a class="brand" href="/"><img src="{{ asset('img/logo_title.png')}}" class="logobrand"></a>
+                    @endif
+                </div>
+                <div class="navigation">
+                    <nav>
+                        <ul class="nav pull-right">
+                            @if(isset($number))
+                                <li><a href="/info/{{$number->username}}">Info Agen</a></li>
+                            @endif
                         </ul>
                     </nav>
                 </div>
@@ -90,442 +119,64 @@
     <!-- end top -->
 </header>
 
-<!-- section featured -->
-<section id="featured">
-    <div class="lefttop">
-        <img src="{{ asset('img/3serangkai.jpg')}}" alt="">
-    </div>
 
-    {{--<!-- sequence slider -->--}}
-    {{--<div id="sequence-theme">--}}
-        {{--<img class="prev" src="{{ asset('img/bt-prev.png')}}" alt="Previous">--}}
-        {{--<img class="next" src="{{ asset('img/bt-next.png')}}" alt="Next">--}}
-        {{--<div class="container">--}}
-            {{--<div class="row">--}}
-                {{--<div class="span12">--}}
-                    {{--<div id="sequence">--}}
-                        {{--<ul>--}}
-                            {{--<li class="animate-in">--}}
-                                {{--<div class="info letter-container">--}}
-                                    {{--<h2 class="fade">Jus Tiga Serangkai</h2>--}}
-                                {{--</div>--}}
-                                {{--<h4 class="subtitle">Campuran Minuman Botani Peria, Madu & Kurma</h4>--}}
-                                {{--<div class="bottomup">--}}
-                                    {{--<img src="{{ asset('img/3-Serangkai-Jumbo.png') }}" alt="" style="height:33vw;">--}}
-                                {{--</div>--}}
-                            {{--</li>--}}
-                            {{--<li class="animate-in">--}}
-                                {{--<div class="info letter-container">--}}
-                                    {{--<h2 class="fade">We creates unique website</h2>--}}
-                                {{--</div>--}}
-                                {{--<h4 class="subtitle">Lorem ipsum dolor sit amet viris torquatos ad vis invidunt singulis</h4>--}}
-                                {{--<div class="lefttop">--}}
-                                    {{--<img src="{{ asset('img/3serangkai.jpg')}}" alt="">--}}
-                                {{--</div>--}}
-                            {{--</li>--}}
-                            {{--<li class="animate-in">--}}
-                                {{--<div class="info letter-container">--}}
-                                    {{--<h2 class="fade">JUS TIGA SERANGKAI</h2>--}}
-                                {{--</div>--}}
-                                {{--<h4 class="subtitle">MERUNGKAI PERMASALAHAN KESIHATAN ANDA.</h4>--}}
-                                {{--<div class="righttop">--}}
-                                    {{--<img src="{{ asset('img/3serangkai2.jpg')}}" alt="">--}}
-                                {{--</div>--}}
-                            {{--</li>--}}
-                        {{--</ul>--}}
+<section class="section">
+    <div class="container">
+        <div class="row phone">
+            <div  class="span-12">
+                <div style="padding-bottom: 25px">
+                    <img src="{{ asset('img/Penyakit-top.jpg')}}">
+                </div>
+
+                {{--<div class="span-12" style="margin: 0px">--}}
+                    {{--<div class="well box aligncenter">--}}
+                        {{--<img src="{{ asset('img/penyakit-jantung.jpg')}}" alt="" style="height:200px; width:200px">--}}
+                        {{--<h3>PENYAKIT JANTUNG KORONARI</h3>--}}
+                        {{--<p>--}}
+                            {{--<b>Tahukah anda PENYAKIT JANTUNG KORONARI kekal sebagai PUNCA UTAMA (36%) KEMATIAN rakyat Malaysia sekarang?</b>--}}
+                        {{--</p>--}}
+                        {{--@if(isset($number))--}}
+                            {{--<a href="/penyakit-jantung/{{$number->username}}" class="btn btn-color">Baca Sekarang</a>--}}
+                        {{--@else--}}
+                            {{--<a href="/penyakit-jantung" class="btn btn-color">Baca Sekarang</a>--}}
+                        {{--@endif--}}
                     {{--</div>--}}
                 {{--</div>--}}
-            {{--</div>--}}
-        {{--</div>--}}
-    {{--</div>--}}
-    <!-- end sequence slider -->
-</section>
-<!-- end featured -->
 
-<!-- Section about -->
-<section id="about" class="section parallax">
-    <div class="gray-shadow">
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="span12">
-                <div class="headline">
-                    <h3><span>JUS TIGA SERANGKAI MERUNGKAI PERMASALAHAN KESIHATAN ANDA.</span></h3>
+                <div class="span-12" style="margin: 0px;">
+                    <div class="well box aligncenter penyakit">
+                        <img src="{{ asset('img/hipertansi.jpeg')}}" alt="" style="height:200px;">
+                        <h3>TEKANAN DARAH TINGGI</h3>
+                        <p style="text-align: center; font-size: 18px;">
+                            <b><br>PENYAKIT TEKANAN DARAH TINGGI <br>ANDA MASIH TAK HILANG WALAU <br>DAH CUBA MACAM-MACAM <br>UBAT DAN PETUA?</b>
+                        </p>
+                        @if(isset($number))
+                            <a href="/hipertensi/{{$number->username}}"><img src="{{ asset('img/baca_sekarang.png')}}" ></a>
+                        @else
+                            <a href="/hipertensi"><img src="{{ asset('img/baca_sekarang.png')}}" ></a>
+                        @endif
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="span4">
-                <div class="well box aligncenter">
-                    <img src="{{ asset('img/penyakit-jantung.jpg')}}" alt="" style="height:200px; width:200px">
-                    <h3>PENYAKIT JANTUNG KORONARI</h3>
-                    <p>
-                        <b>Tahukah anda PENYAKIT JANTUNG KORONARI kekal sebagai PUNCA UTAMA (36%) KEMATIAN rakyat Malaysia sekarang?</b>
-                    </p>
-                    @if(isset($number))
-                        <a href="/penyakit-jantung/{{$number->username}}" class="btn btn-color">Baca Sekarang</a>
-                    @else
-                        <a href="/penyakit-jantung" class="btn btn-color">Baca Sekarang</a>
-                    @endif
-                </div>
-            </div>
-            <div class="span4">
-                <div class="well box aligncenter">
-                    <img src="{{ asset('img/tekanan-darah-tinggi.jpg')}}" alt="" style="height:200px; width:200px">
-                    <h3>TEKANAN DARAH TINGGI</h3>
-                    <p>
-                        <b>Tahukah anda 1 DARIPADA 3 RAKYAT MALAYSIA mengidap masalah TEKANAN DARAH TINGGI?</b>
-                    </p>
-                    @if(isset($number))
-                        <a href="/darah-tinggi/{{$number->username}}" class="btn btn-color">Baca Sekarang</a>
-                    @else
-                        <a href="/darah-tinggi" class="btn btn-color">Baca Sekarang</a>
-                    @endif
-                </div>
-            </div>
-            <div class="span4">
-                <div class="well box aligncenter">
-                    <img src="{{ asset('img/kencing-manis.jpeg')}}" alt="" style="height:200px; width:200px">
-                    <h3>KENCING MANIS</h3>
-                    <p>
-                        <b>Tahukah anda seramai 3.6 JUTA RAKYAT MALAYSIA mengidap PENYAKIT KENCING MANIS?</b>
-                    </p>
-                    @if(isset($number))
-                        <a href="/kencing-manis/{{$number->username}}" class="btn btn-color">Baca Sekarang</a>
-                    @else
-                        <a href="/kencing-manis" class="btn btn-color">Baca Sekarang</a>
-                    @endif
-                </div>
-            </div>
-            {{--<div class="span3">--}}
-                {{--<div class="well box aligncenter">--}}
-                    {{--<img src="{{ asset('img/3-serangkai-logo.png')}}" alt="" style="width:200px; background-color: black; padding: 5px">--}}
-                    {{--<h3>TENTANG KAMI</h3>--}}
-                    {{--<p>--}}
-                        {{--Lorem ipsum dolor sit amet, eum no latine delectus deserunt diam--}}
-                    {{--</p>--}}
-                    {{--<a href="#" class="btn btn-color">Learn more</a>--}}
+
+                {{--<div class="span-12" style="margin: 0px">--}}
+                    {{--<div class="well box aligncenter">--}}
+                        {{--<img src="{{ asset('img/kencing-manis.jpeg')}}" alt="" style="height:200px; width:200px">--}}
+                        {{--<h3>KENCING MANIS</h3>--}}
+                        {{--<p>--}}
+                            {{--<b>Tahukah anda seramai 3.6 JUTA RAKYAT MALAYSIA mengidap PENYAKIT KENCING MANIS?</b>--}}
+                        {{--</p>--}}
+                        {{--@if(isset($number))--}}
+                            {{--<a href="/kencing-manis/{{$number->username}}" class="btn btn-color">Baca Sekarang</a>--}}
+                        {{--@else--}}
+                            {{--<a href="/kencing-manis" class="btn btn-color">Baca Sekarang</a>--}}
+                        {{--@endif--}}
+                    {{--</div>--}}
                 {{--</div>--}}
-            {{--</div>--}}
-        </div>
-    </div>
 
-    {{--<div class="container">--}}
-        {{--<div class="row">--}}
-            {{--<div class="span12">--}}
-                {{--<h3>who we are</h3>--}}
-                {{--<p>--}}
-                    {{--Tahukah anda Penyakit Jantung Koronari kekal sebagai punca utama (36%) kematian rakyat Malaysia sekarang? <br>--}}
-                    {{--Tahukah anda 1 daripada 3 rakyat Malaysia mengidap Penyakit Tekanan Darah Tinggi?--}}
-                    {{--Tahukah anda seramai 3.6 juta rakyat Malaysia mengidap Penyakit Kencing Manis?</p><br>--}}
-
-                {{--<p>--}}
-                    {{--Penyakit Jantung Koronari, Tekanan Darah Tinggi dan Kencing Manis merupakan tiga penyakit paling membunuh di Malaysia. Lebih menakutkan ketiga-tiga penyakit yang digelar sebagai Penyakit Tiga Serangkai ini saling berkait antara satu sama lain dan mula dihidap seawal usia 30-an.--}}
-
-                {{--</p>--}}
-                {{--<div class="dotted_line"></div>--}}
-            {{--</div>--}}
-        {{--</div>--}}
-    {{--</div>--}}
-</section>
-<!-- end section about -->
-
-<!-- section services -->
-<section id="services" class="section parallax">
-    <div class="container">
-        <div class="row">
-            <div class="span12">
-                <div class="headline">
-                    <h3><span>JUS TIGA SERANGKAI</span></h3>
-                </div>
-            </div>
-            <div class="span12">
-                <div class="section-intro">
-                    <p>
-                        <b>MAKANAN TERBAIK UNTUK MASALAH JANTUNG KORONARI, TEKANAN DARAH TINGGI DAN KENCING MANIS.</b>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="span3" style="text-align: center"><img src="{{ asset('img/3-Serangkai-Jumbo.png') }}" alt="" style="height:33vw;"></div>
-            <div class="span8">
-                <div class="well box aligncenter" style="background-color: #dfdfdf; padding: 20px">
-                    <p>
-                        PENYAKIT JANTUNG KORONARI, TEKANAN DARAH TINGGI dan KENCING MANIS merupakan penyakit yang digelar sebagai PENYAKIT TIGA SERANGKAI!
-                    </p>
-                </div>
-                <br>
-                <div class="well box aligncenter" style="background-color: #dfdfdf; padding: 20px">
-                    <p>
-                        PENYAKIT TIGA SERANGKAI ini saling berkait antara satu sama lain dan LEBIH MENAKUTKAN ia ‘TIGA PENYAKIT PALING MEMBUNUH’ di MALAYSIA.
-                    </p>
-                </div>
             </div>
         </div>
     </div>
 </section>
-<!-- end section services -->
-
-<!-- section works -->
-<section id="works" class="section">
-    <div class="container">
-        <div class="row">
-            <div class="span12">
-                <div class="headline">
-                    <h3><span><b>JUS TIGA SERANGKAI MENYELESAIKAN PENYAKIT TIGA SERANGKAI</b></span></h3>
-                </div>
-            </div>
-            <div class="span12">
-                <div class="section-intro">
-                    <p>
-                        <b>JUS TIGA SERANGKAI ADALAH MINUMAN CAMPURAN 33 HERBA BOTANI DENGAN MENGGUNAKAN FORMULA METABOLAID (MetA) DAN FRUKTO OLIGOSAKARIDA (FOS) YANG PERTAMA DI MALAYSIA.</b>
-                    </p>
-                </div>
-            </div>
-            <div  class="span-12">
-                <br>
-                <p>
-                    KHASIAT 33 HERBA BOTANI dengan gabungan FORMULA METABOLAID (MetA) dan FRUKTO OLIGOSAKARIDA (FOS) telah TERBUKTI boleh membantu MENYELESAIKAN masalah PENYAKIT TIGA SERANGKAI (Penyakit Jantung Koronari, Tekanan Darah Tinggi dan Kencing Manis) ini dengan :
-                </p>
-                <ul style="font-size: 18px;">
-                    <li style="margin: 20px;"><p><b>TINGKATKAN KESAN ANTIRADANG </b> – menghalang keradangan kronik yang merosakkan dinding saluran darah hingga menyebabkan kolesterol jahat (LDL) melekat padanya untuk membentuk plak kolesterol seterusnya menyempitkan saluran darah dan meningkatkan tekanan darah tinggi. Ia juga dapat melindungi reseptor insulin daripada keradangan kronik supaya dapat menggunakan insulin untuk menurunkan paras gula dalam darah kepada paras yang normal.</p></li><br>
-                    <li style="margin: 20px;"><p><b>TINGKATKAN KESAN ANTIOKSIDAN </b> – merencatkan aktiviti radikal bebas yang boleh merosakkan sel-sel saluran darah hingga menyebabkannya mengeras dan tidak anjal untuk mengembang dan menguncup supaya dapat mengawal paras tekanan darah menjadi normal. Salur darah yang tidak anjal boleh pecah akibat tekanan darah tinggi dan menyebabkan strok atau serangan jantung.</p></li><br>
-                    <li style="margin: 20px;"><p><b>TINGKATKAN METABOLISME</b> – meningkatkan pembakaran lemak berlebihan dalam badan dengan lebih baik kerana lemak berlebihan adalah toksin yang terkumpul dalam badan.</p></li><br>
-                    <li style="margin: 20px;"><p><b>TURUNKAN PARAS KOLESTEROL</b> – menurunkan kolesterol jahat (LDL) yang membentuk plak kolesterol dengan meningkatkan kolesterol baik (HDL) dalam saluran darah supaya saluran darah tidak menyempit hingga menyebabkan tekanan darah tinggi berlaku dan tidak menyekat bekalan oksigen ke otot-otot jantung dan otak hingga menyebabkan serangan jantung dan strok.</p></li><br>
-                    <li style="margin: 20px;"><p><b>TURUNKAN PARAS GULA  </b> – menurunkan paras gula dalam darah supaya tidak berlaku keradangan kronik dalam saluran darah yang akan merosakkan dinding saluran darah dan reseptor insulin serta tidak memaksa penghasilan insulin melebihi had yang menyebabkan pankreas kehilangan fungsi menghasilkan insulin yang mencukupi dalam jangka masa panjang.</p></li><br>
-                    <li style="margin: 20px;"><p><b>MELANCARKAN SISTEM PEREDARAN DARAH </b> – membantu ritma denyutan jantung menjadi normal dan menganjalkan saluran darah supaya paras tekanan darah menjadi normal.</p></li><br>
-                    <li style="margin: 20px;"><p><b>MENYELARAS SISTEM IMUN </b> – membantu supaya Sistem Imun menjadi normal (tidak terlalu rendah dan tidak menjadi agresif). Sistem Imun yang agresif akan berlaku autoimun yang akan merosakkan dan mematikan sel-sel pankreas hingga gagal menghasilkan insulin yang mencukupi untuk menurunkan paras gula dalam darah kepada paras yang normal.</p></li><br>
-                    <li style="margin: 20px;"><p><b>TINGKATKAN PENYERAPAN KALSIUM </b> – membantu memelihara ketumpatan jisim tulang.</p></li><br>
-                    <li style="margin: 20px;"><p><b>PREBIOTIK YANG BAIK </b> – membantu penghasilan dan keseimbangan bakteria baik dalam usus untuk meningkatkan kesihatan usus.</p></li>
-                </ul>
-            </div>
-            {{--<div class="row">--}}
-                {{--<div class="span4">--}}
-                    {{--<p style="padding-left: 30px">--}}
-                        {{--<b>1.  Ekstrak Peria.</b><br><br>--}}
-                        {{--<b>2.  Bunga Raya.</b>(Formula METABOLAID (MetA))<br><br>--}}
-                        {{--<b>3.  Lemon Verbena.</b>(Formula METABOLAID (MetA))<br><br>--}}
-                        {{--<b>4.  Frukto Oligosakarida.</b><br><br>--}}
-                        {{--<b>5.	Serbuk Madu.</b><br><br>--}}
-                        {{--<b>6.	Serbuk Kurma.</b><br><br>--}}
-                        {{--<b>7.	Ekstrak Delima.</b><br><br>--}}
-                        {{--<b>8.	Serbuk Buah Tin.</b><br><br>--}}
-                        {{--<b>9.	Serbuk Zaitun.</b><br><br>--}}
-                        {{--<b>10.	Ekstrak Mengkudu.</b><br><br>--}}
-                        {{--<b>11.	Serbuk Saffron.</b><br><br>--}}
-                    {{--</p>--}}
-                {{--</div>--}}
-                {{--<div class="span4">--}}
-                    {{--<p style="padding-left: 30px">--}}
-                        {{--<b>12.	Ekstrak Goji.</b><br><br>--}}
-                        {{--<b>13.	Ekstrak Acai Berry.</b><br><br>--}}
-                        {{--<b>14.	Ekstrak Habbatussauda.</b><br><br>--}}
-                        {{--<b>15.	Ekstrak Gingko Biloba.</b><br><br>--}}
-                        {{--<b>16.	Ekstrak Kismis.</b><br><br>--}}
-                        {{--<b>17.	Ekstrak Belalai Gajah.</b><br><br>--}}
-                        {{--<b>18.	Ekstrak Panax Ginseng.</b><br><br>--}}
-                        {{--<b>19.	Ekstrak Anggur.</b><br><br>--}}
-                        {{--<b>20.	Ekstrak Sarang Burung.</b><br><br>--}}
-                        {{--<b>21.	Ekstrak Rozel.</b><br><br>--}}
-                        {{--<b>22.	Ekstrak Kiwi.</b><br><br>--}}
-                    {{--</p>--}}
-                {{--</div>--}}
-                {{--<div class="span4">--}}
-                    {{--<p style="padding-left: 30px">--}}
-                        {{--<b>23.	Ekstrak Asam Jawa.</b><br><br>--}}
-                        {{--<b>24.	Ekstrak Manggis.</b><br><br>--}}
-                        {{--<b>25.	Ekstrak Kunyit.</b><br><br>--}}
-                        {{--<b>26.	Ekstrak Halia Bara.</b><br><br>--}}
-                        {{--<b>27.	Ekstrak Temulawak.</b><br><br>--}}
-                        {{--<b>28.	Ekstrak Jintan Manis.</b><br><br>--}}
-                        {{--<b>29.	Ekstrak Camu-Camu.</b><br><br>--}}
-                        {{--<b>30.	Arabic Gum.</b><br><br>--}}
-                        {{--<b>31.	Ekstrak Buah Naga.</b><br><br>--}}
-                        {{--<b>32.	Ekstrak Pegaga.</b><br><br>--}}
-                        {{--<b>33.	Stevia.</b><br><br>--}}
-                    {{--</p>--}}
-                {{--</div>--}}
-            {{--</div>--}}
-        </div>
-    </div><hr>
-</section>
-<!-- section works -->
-
-<!-- section manfaat -->
-<section id="manfaat" class="section">
-    <div class="container">
-        <div class="row">
-            <div class="span12">
-                <div class="headline">
-                    <h3><span><b>MANFAAT MENGAMALKAN JUS TIGA SERANGKAI</b></span></h3>
-                </div>
-            </div>
-            {{--<div class="span12">--}}
-                {{--<div class="section-intro">--}}
-                    {{--<p>--}}
-                        {{--<b>MANFAAT UNTUK PENYAKIT JANTUNG KORONARI :</b>--}}
-                    {{--</p>--}}
-                {{--</div>--}}
-            {{--</div>--}}
-            <div  class="span12">
-                <br>
-                <p>
-                    <b>MANFAAT UNTUK PENYAKIT JANTUNG KORONARI :</b>
-                </p>
-                <ul style="font-size: 18px;">
-                    <li style="margin: 20px;"><p>Tiada lagi sakit dada yang mengencang dan menekan.</p></li>
-                    <li style="margin: 20px;"><p>Tiada lagi sakit dada apabila melakukan kerja berat.</p></li>
-                    <li style="margin: 20px;"><p>Risiko serangan stroke / angin ahmar boleh dielakkan.</p></li>
-                </ul>
-            </div>
-            <div  class="span12">
-                <br>
-                <p>
-                    <b>MANFAAT UNTUK MASALAH TEKANAN DARAH TINGGI :</b>
-                </p>
-                <ul style="font-size: 18px;">
-                    <li style="margin: 20px;"><p>Penglihatan tidak menjadi kabur.</p></li>
-                    <li style="margin: 20px;"><p>Tiada lagi sakit ulu hati.</p></li>
-                    <li style="margin: 20px;"><p>Sakit dada yang mengencang dan menekan akan hilang.</p></li>
-                    <li style="margin: 20px;"><p>Tiada lagi rasa berdebar.</p></li>
-                    <li style="margin: 20px;"><p>Tidak lagi kerap sakit kepala.</p></li>
-                    <li style="margin: 20px;"><p>Tiada lagi rasa tegang pada tengkuk.</p></li>
-                    <li style="margin: 20px;"><p>Tiada lagi urat merah pada mata putih yang kelihatan jelas.</p></li>
-                    <li style="margin: 20px;"><p>Tidak lagi mengalami telinga berdengung.</p></li>
-                    <li style="margin: 20px;"><p>Bengkak pada pergelangan kaki akan menyusut.</p></li>
-                    <li style="margin: 20px;"><p>Risiko serangan stroke / angin ahmar boleh dielakkan.</p></li>
-                    <li style="margin: 20px;"><p>Risiko penyakit jantung koronari boleh dielakkan.</p></li>
-                    <li style="margin: 20px;"><p>Risiko kerosakan mata boleh dielakkan.</p></li>
-                    <li style="margin: 20px;"><p>Risiko komplikasi buah pinggang boleh dielakkan.</p></li>
-                </ul>
-            </div>
-            <div  class="span12">
-                <br>
-                <p>
-                    <b>MANFAAT UNTUK MASALAH PENYAKIT KENCING MANIS (DIABETES) :</b>
-                </p>
-                <ul style="font-size: 18px;">
-                    <li style="margin: 20px;"><p>Penglihatan tidak menjadi kabur.</p></li>
-                    <li style="margin: 20px;"><p>Penyakit kulit semakin baik.</p></li>
-                    <li style="margin: 20px;"><p>Luka cepat sembuh.</p></li>
-                    <li style="margin: 20px;"><p>Tidak berlaku jangkitan pada sistem pembuangan air kecil dan kemaluan.</p></li>
-                    <li style="margin: 20px;"><p>Tiada masalah kebas kaki.</p></li>
-                    <li style="margin: 20px;"><p>Tidak lagi kerap dahaga.</p></li>
-                    <li style="margin: 20px;"><p>Kekerapan kencing kembali normal.</p></li>
-                    <li style="margin: 20px;"><p>Lebih bertenaga dan bersemangat.</p></li>
-                    <li style="margin: 20px;"><p>Berat badan kembali ideal.</p></li>
-                    <li style="margin: 20px;"><p>Otot-otot kembali kuat.</p></li>
-                    <li style="margin: 20px;"><p>Tiada lagi kegatalan tanpa ruam.</p></li>
-                    <li style="margin: 20px;"><p>Risiko serangan stroke / angin ahmar boleh dielakkan.</p></li>
-                    <li style="margin: 20px;"><p>Risiko penyakit jantung koronari boleh dielakkan.</p></li>
-                    <li style="margin: 20px;"><p>Risiko buta mata / glaukoma / kataraks boleh dielakkan.</p></li>
-                    <li style="margin: 20px;"><p>Risiko komplikasi buah pinggang boleh dielakkan.</p></li>
-                    <li style="margin: 20px;"><p>Risiko komplikasi saraf boleh dielakkan.</p></li>
-                </ul>
-            </div>
-            <div  class="span12">
-                <br>
-                <p>
-                    <b>JUS TIGA SERANGKAI mengandungi 600ml.</b>
-                </p>
-                <p>Cara Penggunaan :</p>
-                <ul style="font-size: 18px;">
-                    <li style="margin: 20px;"><p>2 sudu besar, 2 kali sehari. (pagi dan malam sebelum makan hidangan utama).</p></li>
-                    <li style="margin: 20px;"><p>Jarakkan masa setengah jam jika ada ambil ubat lain.</p></li>
-                </ul>
-            </div>
-        </div>
-    </div><hr>
-</section>
-<!-- section manfaat -->
-
-<!-- section khasiat -->
-<section id="khasiat">
-    <div class="container">
-        <div class="row">
-            <div class="headline">
-                <img src="{{ asset('img/33herba.png')}}" >
-            </div>
-        </div>
-        <div class="row">
-            <div class="span12">
-                <div class="headline">
-                    <img src="{{ asset('img/list_buah.png')}}" >
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<!-- section halal -->
-<section id="halal" class="section parallax">
-    <div class="container">
-        <div class="row">
-            <div class="span12">
-                <div class="headline">
-                    <h3><span>KELULUSAN DAN PERSIJILAN</span></h3>
-                </div>
-            </div>
-        </div>
-        <div class="row" style="text-align: center;">
-            <div class="span3">
-                <img src="{{ asset('img/Logohalal.png')}}" alt="" style="height:200px; width:200px">
-            </div>
-            <div class="span3">
-                <img src="{{ asset('img/gmp.png')}}" alt="" style="height:200px; width:200px">
-            </div>
-            <div class="span3">
-                <img src="{{ asset('img/mesti.png')}}" alt="" style="height:200px; width:auto">
-            </div>
-            <div class="span3">
-                <img src="{{ asset('img/logobuatanmalaysia.png')}}" alt="" style="height:200px; width:auto">
-            </div>
-        </div>
-    </div>
-</section>
-<!-- end section halal -->
-
-
-<!-- section contact -->
-<section id="contact" class="section">
-    <div class="container">
-        <div class="row">
-            <div class="span12">
-                <div class="headline">
-                    <h3><span>HUBUNGI KAMI</span></h3>
-                </div>
-            </div>
-            <div class="span12">
-                <div class="section-end">
-                    <p>
-                        SEBAIKNYA, SEBELUM ANDA MENCUBA JUS TIGA SERANGKAI NI, DAPATKAN KHIDMAT NASIHAT DARI KAMI UNTUK KAMI PASTIKAN KAMI DAPAT BANTU SELESAIKAN MASALAH ANDA DENGAN BERKESAN.<br><br>
-
-                            <b>KAMI JUGA NAK TAWARKAN HARGA ISTIMEWA UNTUK ANDA!
-                                <br><br>
-                                KLIK GAMBAR DI BAWAH UNTUK TERUS WHATSAPP KAMI SEKARANG!
-                            </br>
-
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="span12">
-            <div class="section-intro">
-                <div style="width:100%; margin:0 auto;">
-                    @if(isset($number))
-                        <a href="/wasap/{{$number->number_phone}}" target="_blank"><img src="{{ asset('img/wasap.jpg')}}" ></a>
-                    @else
-                        <a href="https://kliksini.my/Jus-Tiga-Serangkai-TDT" target="_blank"><img src="{{ asset('img/wasap.jpg')}}"></a>
-                    @endif
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- end section contact -->
-
 
 <footer>
     <div class="verybottom">
