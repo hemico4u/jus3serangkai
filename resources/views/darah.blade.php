@@ -87,7 +87,7 @@
                     <img src="{{ asset('img/Penyakit-top.jpg')}}">
                 </div>
                 <p style="text-align: center; font-size: 18px;">
-                    <b><br>PENYAKIT TEKANAN DARAH TINGGI <br>ANDA MASIH TAK HILANG WALAU <br>DAH CUBA MACAM-MACAM <br>UBAT DAN PETUA?</b>
+                    <b><br>PENYAKIT <text class="highlight">TEKANAN DARAH TINGGI</text> <br>ANDA MASIH <text class="highlight">TAK HILANG</text> WALAU <br>DAH CUBA MACAM-MACAM <br>UBAT DAN PETUA?</b>
                 </p>
                 <br>
                 <p style="text-align: center;">
@@ -96,7 +96,7 @@
                         (Statistik dari Kementerian Kesihatan Malaysia)
                     </b>
                 </p>
-                <br>
+                <br>de
                 <div class="aligncenter">
                     <img style="width: 400px" src="{{ asset('img/statistik.jpeg')}}" >
                 </div>
@@ -113,10 +113,10 @@
                 <br>
                 <p style="text-align: center; font-size: 18px;">
                     <br>
-                    <b>6 FAKTOR PENYEBAB PENYAKIT TEKANAN DARAH TINGGI</b>
+                    <b>6 FAKTOR <text class="highlight">PENYEBAB</text> PENYAKIT TEKANAN DARAH TINGGI</b>
                 </p>
                 <ol>
-                    <li><p><b>Keradangan Kronik</b>– ia merosakkan dinding saluran darah. Kolesterol jahat (LDL) melekat padanya dan akan membentuk plak kolestrol yang menyempitkan salur darah hingga meningkatkan tekanan darah.</p></li><br>
+                    <li><p><b>Keradangan Kronik</b>- ia merosakkan dinding saluran darah. Kolesterol jahat (LDL) melekat padanya dan akan membentuk plak kolestrol yang menyempitkan salur darah hingga meningkatkan tekanan darah.</p></li><br>
                     <li><p><b>Radikal Bebas</b>- ia merosakkan sel-sel saluran darah hingga menyebabkannya mengeras. Saluran darah perlu anjal (lembut) untuk mengembang dan menguncup supaya dapat mengawal paras tekanan darah menjadi normal.</p></li><br>
                     <li><p><b>Paras Kolesterol Tinggi Dalam Darah</b>- kolesterol jahat (LDL) yang tinggi dalam darah akan melekat pada dinding saluran darah yang rosak akibat keradangan kronik dan akan membentuk plak kolesterol yang menyempitkan salur darah hingga meningkatkan tekanan darah.</p></li><br>
                     <li><p><b>Paras Gula Tinggi Dalam Darah</b>- paras gula yang tinggi dalam darah akan menyebabkan keradangan kronik yang akan merosakkan dinding saluran darah.</p></li><br>
@@ -126,7 +126,7 @@
                 <br>
                 <p style="text-align: center; font-size: 18px;">
                     <br>
-                    <b>APA MASALAH YANG <br>KERAP DIALAMI OLEH PESAKIT <br>TEKANAN DARAH TINGGI?
+                    <b>APA <text class="highlight">MASALAH</text> YANG <br><text class="highlight">KERAP DIALAMI</text> OLEH PESAKIT <br>TEKANAN DARAH TINGGI?
                     </b>
                 </p>
                 <ul>
@@ -143,8 +143,8 @@
                 <br>
                 <p style="text-align: center; font-size: 18px;">
                     <br>
-                    <b>APA AKAN JADI JIKA PENYAKIT <br>TEKANAN DARAH TINGGI ANDA<br>
-                        TIDAK DIKAWAL DAN DIRAWAT <br>SEKARANG?
+                    <b>APA AKAN JADI JIKA PENYAKIT <br><text class="highlight">TEKANAN DARAH TINGGI</text> ANDA<br>
+                        <text class="highlight">TIDAK DIKAWAL</text> DAN <text class="highlight">DIRAWAT</text> <br>SEKARANG?
                     </b>
                 </p>
                 <ul>
@@ -170,8 +170,8 @@
                 <p style="text-align: center; font-size: 18px;">
                     <br><br>
                     <b>
-                        BAGAIMANA JUS TIGA SERANGKAI <br>MEMBANTU
-                        MENYELESAIKAN <br>PENYAKIT TEKANAN DARAH TINGGI?
+                        BAGAIMANA <text class="highlight">JUS TIGA SERANGKAI</text> <br>MEMBANTU
+                        <text class="highlight">MENYELESAIKAN</text> <br>PENYAKIT <text class="highlight">TEKANAN DARAH TINGGI</text>?
 
                     </b>
                 </p>
@@ -200,7 +200,7 @@
 
                 </ul>
 
-                <p><b>Setelah anda amalkan JUS TIGA SERANGKAI ni, anda akan dapati :-</b></p><br>
+                <u><p style="color: red"><b>Setelah anda amalkan JUS TIGA SERANGKAI ini, anda akan dapati :-</b></p></u><br>
                 <ul>
                     <li>Anda lebih tenang dan tidak mudah stres atau meradang.</li><br>
                     <li>Anda tidak lagi kerap sakit kepala dan rasa berat.</li><br>
@@ -225,8 +225,8 @@
                 <p style="text-align: center; font-size: 18px;">
                     <br>
                     <b>
-                        JUS TIGA SERANGKAI <br>MAKANAN TERBAIK UNTUK<br>
-                        PENYAKIT TEKANAN DARAH TINGGI
+                        <text class="highlight">JUS TIGA SERANGKAI</text> <br><text class="highlight">MAKANAN TERBAIK</text> UNTUK<br>
+                        PENYAKIT <text class="highlight">TEKANAN DARAH TINGGI</text>
                     </b>
                 </p>
                 <br>
@@ -236,7 +236,7 @@
                 <p style="text-align: center; font-size: 18px;">
                     <br><br>
                     <b>
-                        MENDAPAT SIJIL HALAL DARI JAKIM
+                        MENDAPAT SIJIL <text class="highlight">HALAL</text> DARI <text class="highlight">JAKIM</text>
                     </b>
                 </p>
                 <img src="{{ asset('img/halal.jpg')}}" >
@@ -252,7 +252,7 @@
                 </p>
                 <p style="text-align: center;">
                     <b>KAMI JUGA NAK TAWARKAN <br>HARGA ISTIMEWA UNTUK ANDA!<br><br>
-                        KLIK GAMBAR DI BAWAH UNTUK TERUS WHATSAPP KAMI SEKARANG!</b>
+                        <text class="highlight">KLIK GAMBAR DI BAWAH UNTUK TERUS WHATSAPP KAMI SEKARANG!</text></b>
                 </p>
 
                 @if(isset($number))

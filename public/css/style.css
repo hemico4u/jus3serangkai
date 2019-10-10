@@ -28,6 +28,11 @@
 	color:#fff;
 }
 
+.highlight {
+    color: black;
+    background-color: yellow;
+}
+
 iframe, embed, object {
 	border:none;
 }
