@@ -87,7 +87,7 @@
                     <img src="{{ asset('img/Penyakit-top.jpg')}}">
                 </div>
                 <p style="text-align: center; font-size: 18px;">
-                    <b><br>PENYAKIT <text class="highlight">TEKANAN DARAH TINGGI</text> <br>ANDA MASIH <text class="highlight">TAK HILANG</text> WALAU <br>DAH CUBA MACAM-MACAM <br>UBAT DAN PETUA?</b>
+                    <b><br>PENYAKIT <text class="highlight">TEKANAN DARAH TINGGI</text> <br>ANDA MASIH <text class="highlight">TAK HILANG WALAU <br>DAH CUBA</text> MACAM-MACAM <br><text class="highlight">UBAT DAN PETUA</text>?</b>
                 </p>
                 <br>
                 <p style="text-align: center;">
@@ -96,7 +96,7 @@
                         (Statistik dari Kementerian Kesihatan Malaysia)
                     </b>
                 </p>
-                <br>de
+                <br>
                 <div class="aligncenter">
                     <img style="width: 400px" src="{{ asset('img/statistik.jpeg')}}" >
                 </div>
@@ -108,12 +108,12 @@
                 </p>
                 <br>
                 <p style="text-align: center;">
-                    Anda perlu tahu bahawa punca utama yang menyebabkan Penyakit Tekanan Darah Tinggi bukan semata-mata disebabkan oleh makanan yang tinggi kolesterol, gula dan garam sahaja!
+                    Anda perlu tahu bahawa <u><text style="color: red;font-weight: bold;">punca utama</text></u> yang menyebabkan <u><text style="color: red;font-weight: bold;">Penyakit Tekanan Darah Tinggi bukan semata-mata</text></u> disebabkan oleh makanan yang <u><text style="color: red;font-weight: bold;">tinggi kolesterol, gula dan garam sahaja</text></u>!
                 </p>
                 <br>
                 <p style="text-align: center; font-size: 18px;">
                     <br>
-                    <b>6 FAKTOR <text class="highlight">PENYEBAB</text> PENYAKIT TEKANAN DARAH TINGGI</b>
+                    <b>6 FAKTOR <text class="highlight">PENYEBAB</text> PENYAKIT <text class="highlight">TEKANAN DARAH TINGGI</text></b>
                 </p>
                 <ol>
                     <li><p><b>Keradangan Kronik</b>- ia merosakkan dinding saluran darah. Kolesterol jahat (LDL) melekat padanya dan akan membentuk plak kolestrol yang menyempitkan salur darah hingga meningkatkan tekanan darah.</p></li><br>
@@ -126,7 +126,7 @@
                 <br>
                 <p style="text-align: center; font-size: 18px;">
                     <br>
-                    <b>APA <text class="highlight">MASALAH</text> YANG <br><text class="highlight">KERAP DIALAMI</text> OLEH PESAKIT <br>TEKANAN DARAH TINGGI?
+                    <b>APA <text class="highlight">MASALAH</text> YANG <br><text class="highlight">KERAP DIALAMI</text> OLEH <text class="highlight">PESAKIT <br>TEKANAN DARAH TINGGI</text>?
                     </b>
                 </p>
                 <ul>
@@ -144,7 +144,7 @@
                 <p style="text-align: center; font-size: 18px;">
                     <br>
                     <b>APA AKAN JADI JIKA PENYAKIT <br><text class="highlight">TEKANAN DARAH TINGGI</text> ANDA<br>
-                        <text class="highlight">TIDAK DIKAWAL</text> DAN <text class="highlight">DIRAWAT</text> <br>SEKARANG?
+                        <text class="highlight">TIDAK DIKAWAL</text> DAN <text class="highlight">DIRAWAT <br>SEKARANG</text>?
                     </b>
                 </p>
                 <ul>
@@ -159,7 +159,7 @@
                 <p>
                     Disebabkan majoriti pesakit Tekanan Darah Tinggi tidak mempunyai apa-apa simptom ketika mengalami penyakit ini dan menganggap masalah-masalah yang dialami sebagai masalah biasa, akhirnya Penyakit Tekanan Darah Tinggi mereka semakin melarat dan bertambah serius hingga membawa kepada kematian.
                 </p>
-                <p><br>Sebab itulah Penyakit Tekanan Darah Tinggi digelar sebagai Penyakit Pembunuh Dalam Senyap.<br><br></p>
+                <p><br>Sebab itulah <u><text style="color: red;font-weight: bold;">Penyakit Tekanan Darah Tinggi digelar</text></u> sebagai <u><text style="color: red;font-weight: bold;">Penyakit Pembunuh Dalam Senyap</text></u>.<br><br></p>
 
                 <div class="aligncenter">
                     <img src="{{ asset('img/kematian.jpeg')}}" >
@@ -183,7 +183,7 @@
                 </p>
                 <br>
                 <ul>
-                    <li>JUS TIGA SERANGKAI menggunakan Formula METABOLAID (MetA) dari gabungan Bunga Raya dan Lemon Verbena untuk :-
+                    <li>JUS TIGA SERANGKAI menggunakan <text class="highlight">Formula METABOLAID (MetA)</text> dari gabungan Bunga Raya dan Lemon Verbena untuk :-
                         <ul><br>
                             <li>Kesan Antiradang untuk mengelakkan kerosakan dinding saluran darah.</li>
                             <li>Kesan Antioksidan untuk mengelakkan salur darah mengeras.</li>
@@ -191,7 +191,7 @@
                             <li>Menurunkan kolesterol untuk mengelakkan pembentukan plak kolesterol.</li>
                         </ul>
                     </li><br>
-                    <li>JUS TIGA SERANGKAI juga menggunakan Formula Frukto Oligosakarida (FOS untuk :-
+                    <li>JUS TIGA SERANGKAI juga menggunakan <text class="highlight">Formula Frukto Oligosakarida (FOS)</text> untuk :-
                         <ul><br>
                             <li>Menguatkan imuniti tubuh.</li>
                             <li>Prebiotik untuk kesihatan usus.</li>
@@ -200,7 +200,7 @@
 
                 </ul>
 
-                <u><p style="color: red"><b>Setelah anda amalkan JUS TIGA SERANGKAI ini, anda akan dapati :-</b></p></u><br>
+                <p><b><text class="highlight">Setelah anda amalkan JUS TIGA SERANGKAI ini, anda akan dapati </text>:-</b></p><br>
                 <ul>
                     <li>Anda lebih tenang dan tidak mudah stres atau meradang.</li><br>
                     <li>Anda tidak lagi kerap sakit kepala dan rasa berat.</li><br>
