@@ -147,9 +147,9 @@
                     <div class="well box aligncenter penyakit">
                         <img src="{{ asset('img/hipertansi.jpeg')}}" alt="" style="height:200px;">
                         <h3>TEKANAN DARAH TINGGI</h3>
-                        <p style="text-align: center; font-size: 18px;">
+                        <h4 style="text-align: center; font-size: 18px;">
                             <b><br>PENYAKIT TEKANAN DARAH TINGGI <br>ANDA MASIH TAK HILANG WALAU <br>DAH CUBA MACAM-MACAM <br>UBAT DAN PETUA?</b>
-                        </p>
+                        </h4>
                         @if(isset($number))
                             <a href="/hipertensi/{{$number->username}}"><img src="{{ asset('img/baca_sekarang.png')}}" ></a>
                         @else

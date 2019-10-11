@@ -258,7 +258,7 @@
                 @if(isset($number))
                     <a href="/wasap/{{$number->number_phone}}" target="_blank"><img style="width: 80%; padding-left: 10%;" src="{{ asset('img/whatsapp-sekarang.gif')}}" ></a>
                 @else
-                    <a href="https://kliksini.my/Info-JTS" target="_blank"><img style="width: 80%; padding-left: 10%;" src="{{ asset('img/whatsapp-sekarang.jpg')}}" ></a>
+                    <a href="https://kliksini.my/Info-JTS" target="_blank"><img style="width: 80%; padding-left: 10%;" src="{{ asset('img/whatsapp-sekarang.gif')}}" ></a>
                 @endif
             </div>
         </div>
