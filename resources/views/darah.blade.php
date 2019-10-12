@@ -165,10 +165,15 @@
                     <img src="{{ asset('img/kematian.jpeg')}}" >
                 </div>
 
-                <p><br><b>Elak dan cegah Penyakit Tekanan Darah Tinggi anda dengan JUS TIGA SERANGKAI sekarang!</b></p>
+                <p><br><b>Elak dan cegah Penyakit Tekanan Darah Tinggi anda dengan JUS TIGA SERANGKAI sekarang!</b><br></p>
+
+                <br><br>
+                <div class="aligncenter">
+                    <img src="{{ asset('img/Model_JTS_minimize.jpg')}}" >
+                </div>
 
                 <p style="text-align: center; font-size: 18px;">
-                    <br><br>
+                    <br>
                     <b>
                         BAGAIMANA <text class="highlight">JUS TIGA SERANGKAI</text> <br>MEMBANTU
                         <text class="highlight">MENYELESAIKAN</text> <br>PENYAKIT <text class="highlight">TEKANAN DARAH TINGGI</text>?
