@@ -128,9 +128,10 @@ class UserController extends Controller
         return redirect("/info/$check->username");
     }
 
-    public function tester()
+    public function tester(Request $request)
     {
         log::alert('ok');
+        log::alert($request);
     }
 
     /**

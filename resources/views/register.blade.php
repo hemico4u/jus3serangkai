@@ -101,7 +101,7 @@
 <section id="featured">
     <div class="container">
         <div class="row">
-            <div class="span12">
+            <div class="span12"><br>
                 <div class="letter-container inner-heading">
                     <h2 class="fade">DAFTAR</h2>
                 </div>

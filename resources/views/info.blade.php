@@ -67,7 +67,7 @@
 <section id="featured">
     <div class="container">
         <div class="row">
-            <div class="span12">
+            <div class="span12"><br>
                 <div class="letter-container inner-heading">
                     <h2 class="fade">MAKLUMAT AGEN</h2>
                 </div>
@@ -107,9 +107,8 @@
 
                         <p>
                             DARAH TINGGI URL    :
-                            {{--<text style="color: #ef6603;">{{url('/')."/hipertensi/$info->username"}}</text>--}}
-                            <input type="text" value="{{url('/')."/hipertensi/$info->username"}}" id="myInput" ><br>
-                            <button onclick="myFunction()" class="btn btn-color">Copy Link</button>
+                            <text style="color: #ef6603;" id="mytext">{{url('/')."/hipertensi/$info->username"}}</text><br>
+                            <button id="TextToCopy" onclick="copy_function('mytext')" class="btn btn-color">Copy Link</button>
                             <a href="{{url('/')."/hipertensi/$info->username"}}" target="_blank" class="btn btn-color" style="background: #5777ef;">View Page</a>
                         </p>
 
@@ -167,12 +166,15 @@
 </footer>
 
 <script>
-    function myFunction() {
-        var copyText = document.getElementById("myInput");
-        copyText.select();
-        copyText.setSelectionRange(0, 99999)
+    function copy_function(id){
+        var value = document.getElementById(id).innerHTML;
+        var input_temp = document.createElement("input");
+        input_temp.value = value;
+        document.body.appendChild(input_temp);
+        input_temp.select();
         document.execCommand("copy");
-        alert("Copied the text: " + copyText.value);
+        document.body.removeChild(input_temp);
+        alert("Copied the text: " + value);
     }
 </script>
 
