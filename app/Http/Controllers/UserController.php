@@ -130,8 +130,9 @@ class UserController extends Controller
 
     public function tester(Request $request)
     {
-        log::alert('ok');
         log::alert($request);
+        return ;
+
     }
 
     /**
